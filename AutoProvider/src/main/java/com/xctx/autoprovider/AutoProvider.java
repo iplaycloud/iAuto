@@ -1,4 +1,4 @@
-package com.tchip.autoprovider;
+package com.xctx.autoprovider;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;

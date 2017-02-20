@@ -1,4 +1,4 @@
-package com.tchip.autoprovider;
+package com.xctx.autoprovider;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tchip.autoprovider"
+    package="com.xctx.autoprovider"
     android:versionCode="1"
     android:versionName="2016.08.02-20:00" >
 
@@ -13,8 +13,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <provider
-            android:name="com.tchip.autoprovider.AutoProvider"
-            android:authorities="com.tchip.provider.AutoProvider"
+            android:name="com.xctx.autoprovider.AutoProvider"
+            android:authorities="com.xctx.provider.AutoProvider"
             android:exported="true" />
     </application>
 
