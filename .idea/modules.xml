@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoProvider/AutoProvider.iml" filepath="$PROJECT_DIR$/AutoProvider/AutoProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoRecord/AutoRecord.iml" filepath="$PROJECT_DIR$/AutoRecord/AutoRecord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoSetting/AutoSetting.iml" filepath="$PROJECT_DIR$/AutoSetting/AutoSetting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoUI/AutoUI.iml" filepath="$PROJECT_DIR$/AutoUI/AutoUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoWeather/AutoWeather.iml" filepath="$PROJECT_DIR$/AutoWeather/AutoWeather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaiduNavi/BaiduNavi.iml" filepath="$PROJECT_DIR$/BaiduNavi/BaiduNavi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaodeNavi/GaodeNavi.iml" filepath="$PROJECT_DIR$/GaodeNavi/GaodeNavi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iAuto.iml" filepath="$PROJECT_DIR$/iAuto.iml" />
+    </modules>
+  </component>
+</project>

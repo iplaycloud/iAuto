@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AutoProvider" />
+            <option value="$PROJECT_DIR$/AutoRecord" />
+            <option value="$PROJECT_DIR$/AutoSetting" />
+            <option value="$PROJECT_DIR$/AutoUI" />
+            <option value="$PROJECT_DIR$/AutoWeather" />
+            <option value="$PROJECT_DIR$/BaiduNavi" />
+            <option value="$PROJECT_DIR$/GaodeNavi" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

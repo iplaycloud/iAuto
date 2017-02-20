@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_item_bg">#000000</color>
+    <color name="main_item_title_color">#FFFFFF</color>
+    <!-- 时间 -->
+    <color name="time_text_color">#e2b223</color>
+    <!-- 行车记录 -->
+    <color name="record_screen_text_color">#323232</color>
+    <color name="sl_record_screen_text_color">#ffffff</color>
+    <!-- 文件管理 -->
+    <color name="file_total_text_color">#c7b39b</color>
+    <!-- 多媒体 -->
+    <color name="ui_setting_top_bar_bg">#29292d</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <!-- FormatDialog -->
+    <color name="dialog_format_title">#eeeeee</color>
+    <color name="dialog_format_message">#ffffff</color>
+    <color name="dialog_format_button">#17ddcd</color>
+    <!-- ViewPagerIndicator -->
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="bright_foreground_holo_light">#ff000000</color>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_inverse_holo_dark">#ff000000</color>
+    <color name="bright_foreground_inverse_holo_light">#fff3f3f3</color>
+    <color name="lc_8_indicator_bg">@color/main_item_bg</color>
+    <color name="icon_hint_text_color">#ffffff</color>
+
+</resources>

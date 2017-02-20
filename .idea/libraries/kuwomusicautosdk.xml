@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kuwomusicautosdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AutoUI/libs/kuwomusicautosdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

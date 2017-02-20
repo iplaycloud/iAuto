@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutOne"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <!-- 行车记录 -->
+
+        <RelativeLayout
+            android:id="@+id/layoutRecord"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/sl6_main_item_margin_right"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/sl6_main_item_margin_right" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:src="@drawable/sl_6_record" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/main_item_title_margin_left"
+                android:layout_marginTop="@dimen/main_item_title_margin_top"
+                android:textColor="@color/main_item_title_color"
+                android:textSize="@dimen/main_item_title_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="85dp"
+                android:background="?android:attr/selectableItemBackground" >
+
+                <TextView
+                    android:id="@+id/textRecStateFront"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rec_state_front_off"
+                    android:textColor="@color/sl_record_screen_text_color"
+                    android:textSize="@dimen/record_screen_text_size" />
+
+                <TextView
+                    android:id="@+id/textRecStateBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/sl6_record_text_margin_bottom"
+                    android:text="@string/rec_state_back_off"
+                    android:textColor="@color/sl_record_screen_text_color"
+                    android:textSize="@dimen/record_screen_text_size" />
+
+                <ImageView
+                    android:id="@+id/imageRecordState"
+                    android:layout_width="@dimen/sl6_record_btn_edge"
+                    android:layout_height="@dimen/sl6_record_btn_edge"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@null"
+                    android:src="@drawable/record_start_normal_sl_6" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- 导航 -->
+
+        <RelativeLayout
+            android:id="@+id/layoutNavigation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/sl6_main_item_margin_right"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageNavigation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:contentDescription="@null"
+                android:src="@drawable/sl_6_navigation" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground" >
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- 在线视频 -->
+
+        <RelativeLayout
+            android:id="@+id/layoutVideoOL"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/sl6_main_item_margin_right"
+            android:layout_weight="1"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:contentDescription="@null"
+                android:src="@drawable/sl_6_video_online_tudou" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground" >
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- 蓝牙电话 -->
+
+        <RelativeLayout
+            android:id="@+id/layoutPhone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/sl6_main_item_margin_right"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:contentDescription="@null"
+                android:src="@drawable/sl_6_phone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground" >
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- DSA -->
+
+        <RelativeLayout
+            android:id="@+id/layoutEDog"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/sl6_main_item_margin_right" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:contentDescription="@null"
+                android:src="@drawable/sl_6_edog" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground" >
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--文件管理，在线音乐-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            >
+
+            <!-- 文件管理 -->
+
+            <RelativeLayout
+                android:id="@+id/layoutFileManager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/sl_6_file_manager" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground" />
+            </RelativeLayout>
+
+            <!-- 音乐 -->
+
+            <RelativeLayout
+                android:id="@+id/layoutMusic"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/sl_6_music_online" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground" >
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutBottomSmall"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+    </RelativeLayout>
+
+</RelativeLayout>

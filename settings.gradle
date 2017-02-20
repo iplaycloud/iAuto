@@ -1,0 +1,7 @@
+include ':AutoUI'
+include ':AutoProvider'
+include ':AutoRecord'
+include ':AutoSetting'
+include ':GaodeNavi'
+include ':BaiduNavi'
+include ':AutoWeather'

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutOne"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tq_6"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal" >
+
+        <!-- 行车记录 -->
+
+        <RelativeLayout
+            android:id="@+id/layoutRecord"
+            android:layout_width="@dimen/ui7_image_big_width"
+            android:layout_height="@dimen/ui7_image_big_height"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="@dimen/ui7_item_margin_horizontal" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:src="@drawable/record_7" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground" >
+
+                <ImageView
+                    android:id="@+id/imageRecordState"
+                    android:layout_width="@dimen/sl6_record_btn_edge"
+                    android:layout_height="@dimen/sl6_record_btn_edge"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/sl7_record_btn_margin_bottom"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@null"
+                    android:src="@drawable/record_start_normal_sl_6" />
+
+                <TextView
+                    android:id="@+id/textRecStateBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/imageRecordState"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/sl7_record_text_margin_bottom"
+                    android:text="@string/rec_state_back_off"
+                    android:textColor="@color/sl_record_screen_text_color"
+                    android:textSize="@dimen/sl7_record_screen_text_size" />
+
+                <TextView
+                    android:id="@+id/textRecStateFront"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/textRecStateBack"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/rec_state_front_off"
+                    android:textColor="@color/sl_record_screen_text_color"
+                    android:textSize="@dimen/sl7_record_screen_text_size" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- 导航 -->
+
+        <RelativeLayout
+            android:id="@+id/layoutNavigation"
+            android:layout_width="@dimen/ui7_image_big_width"
+            android:layout_height="@dimen/ui7_image_big_height"
+            android:layout_marginRight="@dimen/ui7_item_margin_horizontal" >
+
+            <ImageView
+                android:id="@+id/imageNavigation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:src="@drawable/navigation_7" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground" >
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- 音乐 -->
+
+        <RelativeLayout
+            android:id="@+id/layoutEDog"
+            android:layout_width="@dimen/ui7_image_big_width"
+            android:layout_height="@dimen/ui7_image_big_height"
+            android:layout_marginRight="@dimen/ui7_item_margin_horizontal" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:src="@drawable/edog_7" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground" >
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/ui7_image_big_width"
+            android:layout_height="@dimen/ui7_image_big_height"
+            android:layout_marginRight="@dimen/ui7_item_margin_horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/layoutPhone"
+                android:layout_width="@dimen/ui7_image_big_width"
+                android:layout_height="@dimen/ui7_image_small_height" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/phone_7" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground" >
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutFMTransmit"
+                android:layout_width="@dimen/ui7_image_big_width"
+                android:layout_height="@dimen/ui7_image_small_height"
+                android:layout_below="@id/layoutPhone"
+                android:layout_marginTop="7dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/fmtransmit_7" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground" >
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/ui7_image_big_width"
+            android:layout_height="@dimen/ui7_image_big_height"
+            android:layout_marginRight="@dimen/ui7_item_margin_horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/layoutMusic"
+                android:layout_width="@dimen/ui7_image_big_width"
+                android:layout_height="@dimen/ui7_image_small_height" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/music_7" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground" >
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutFileManager"
+                android:layout_width="@dimen/ui7_image_big_width"
+                android:layout_height="@dimen/ui7_image_small_height"
+                android:layout_below="@id/layoutMusic"
+                android:layout_marginTop="7dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:src="@drawable/filemanager_7" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground" >
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

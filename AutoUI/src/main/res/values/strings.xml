@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoUI</string>
+
+    <!-- Hint -->
+    <string name="hint_unknown">未知</string>
+    <string name="hint_no_network">无网络</string>
+    <string name="hint_back_car_now">倒车</string>
+    <string name="hint_start_park_monitor_after_90">九十秒后启动停车守卫</string>
+
+    <!-- Title -->
+    <string name="title_record">行车记录</string>
+    <string name="title_navigation">导航</string>
+    <string name="title_weather">天气</string>
+    <string name="title_music">在线音乐</string>
+    <string name="title_cloudpick">一键接人</string>
+    <string name="title_music_online">在线音乐</string>
+    <string name="title_edog">电子狗</string>
+    <string name="title_ximalaya">网络电台</string>
+    <string name="title_multimedia">多媒体</string>
+    <string name="title_drive_route">行车轨迹</string>
+    <string name="title_file_manager">文件管理</string>
+    <string name="title_message">短信</string>
+    <string name="title_fm_transmit">FM发射</string>
+    <string name="title_phone">蓝牙电话</string>
+    <string name="title_clouddialer">云电话</string>
+    <string name="title_setting">设置</string>
+    <string name="title_wechat">微信助手</string>
+    <string name="title_weme">翼卡在线</string>
+    <string name="title_youku">优酷</string>
+    <string name="title_cloudcenter">云中心</string>
+    <string name="title_picture">图片</string>
+    <string name="title_video">视频</string>
+    <!-- 行车记录 -->
+    <string name="rec_state_front_off">前:未录像</string>
+    <string name="rec_state_front_on">前:录像中</string>
+    <string name="rec_state_back_off">后:未录像</string>
+    <string name="rec_state_back_on">后:录像中</string>
+
+    <!-- 天气 -->
+    <string name="weather_not_record">未定位</string>
+    <string name="weather_unknown">未知</string>
+    <string name="weather_no_temp">温度未获取</string>
+
+    <!-- 文件管理 -->
+    <string name="file_total_default">总共00.00GB</string>
+    <string name="file_left_hint">剩余</string>
+    <string name="file_left_default">28.56</string>
+    <string name="file_total_hint">总共</string>
+    <string name="file_gb">GB</string>
+
+    <!-- 异常处理 -->
+    <string name="app_has_exception">抱歉AutoUI出现异常,即将退出</string>
+
+    <!-- 录像 -->
+    <string name="sleeping_now">正在休眠</string>
+    <!-- 音乐 -->
+    <string name="music_play_now">正在播放的歌</string>
+
+    <!-- ViewPager -->
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+    <!-- FormatDialog -->
+    <string name="dialog_format_title">提示</string>
+    <string name="dialog_format_confirm">确认</string>
+    <string name="dialog_format_cancel">取消</string>
+    
+    <string name="no_cvbs_detect">请先插入后拉摄像头！</string>
+
+</resources>
