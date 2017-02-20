@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     coreApp="true"
-    package="com.tchip.autoui"
+    package="com.xctx.autoui"
     android:versionCode="1"
     android:versionName="2016.12.05-09:40" >
 
@@ -73,7 +73,7 @@
     <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
 
     <application
-        android:name="com.tchip.autoui.MyApp"
+        android:name="com.xctx.autoui.MyApp"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
@@ -82,7 +82,7 @@
         android:persistent="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.tchip.autoui.ui.MainActivity"
+            android:name="com.xctx.autoui.ui.MainActivity"
             android:configChanges="screenSize|orientation|keyboard|mcc|mnc"
             android:label="@string/app_name"
             android:launchMode="singleTask"
@@ -96,11 +96,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.tchip.autoui.ui.MultimediaActivity" />
+        <activity android:name="com.xctx.autoui.ui.MultimediaActivity" />
 
-        <service android:name="com.tchip.autoui.service.TempMonitorService" />
+        <service android:name="com.xctx.autoui.service.TempMonitorService" />
 
-        <receiver android:name="com.tchip.autoui.receiver.CardMountReceiver" >
+        <receiver android:name="com.xctx.autoui.receiver.CardMountReceiver" >
             <intent-filter android:priority="2147483646" >
                 <action android:name="android.intent.action.MEDIA_MOUNTED" />
                 <action android:name="android.intent.action.MEDIA_EJECT" />
@@ -113,7 +113,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.tchip.autoui.receiver.RebootReceiver"
+            android:name="com.xctx.autoui.receiver.RebootReceiver"
             android:process=":remote" />
     </application>
 
