@@ -81,7 +81,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/layoutTop" >
 
-        <com.tchip.weather.view.TitanicTextView
+        <com.xctx.weather.view.TitanicTextView
             android:id="@+id/textTempRange"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

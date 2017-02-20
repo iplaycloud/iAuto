@@ -87,7 +87,7 @@
                 android:textSize="22sp"
                 android:visibility="gone" />
 
-            <com.tchip.weather.view.SwitchButton
+            <com.xctx.weather.view.SwitchButton
                 android:id="@+id/switchSpeakWeather"
                 style="@style/SwitchButtonStyle"
                 android:layout_alignBottom="@id/textSpeakWeather"
@@ -127,7 +127,7 @@
                 android:textColor="#ffffff"
                 android:textSize="22sp" />
 
-            <com.tchip.weather.view.SwitchButton
+            <com.xctx.weather.view.SwitchButton
                 android:id="@+id/switchUseLocate"
                 style="@style/SwitchButtonStyle"
                 android:layout_alignBottom="@id/textUseLocate"
@@ -203,19 +203,19 @@
                     android:orientation="horizontal"
                     android:visibility="gone" >
 
-                    <com.tchip.weather.view.WheelView
+                    <com.xctx.weather.view.WheelView
                         android:id="@+id/wheelProvince"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
 
-                    <com.tchip.weather.view.WheelView
+                    <com.xctx.weather.view.WheelView
                         android:id="@+id/wheelCity"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
 
-                    <com.tchip.weather.view.WheelView
+                    <com.xctx.weather.view.WheelView
                         android:id="@+id/wheelDistrict"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
