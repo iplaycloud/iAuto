@@ -7,6 +7,6 @@
     <dimen name="setting_item_height">85dp</dimen>
     
     <!-- -->
-    <dimen name="setting_route_plan_pref_text_size">25sp</dimen>
+    <dimen name="setting_route_plan_pref_text_size">18sp</dimen>
 
 </resources>

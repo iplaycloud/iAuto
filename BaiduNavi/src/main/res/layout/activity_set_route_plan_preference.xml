@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="400dp"
-    android:layout_height="400dp"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
     android:background="@drawable/shape_setting_volume_bg"
     android:padding="10dp" >
 
     <RelativeLayout
         android:id="@+id/layoutTitleTop"
         android:layout_width="match_parent"
-        android:layout_height="50dp" >
+        android:layout_height="30dp" >
 
         <TextView
             android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:gravity="center_horizontal"
             android:text="路线规划策略"
             android:textColor="#99000000"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
 
         <View
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         android:layout_below="@id/layoutTitleTop"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="180dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:orientation="vertical" >
 
         <RadioButton
@@ -80,9 +80,9 @@
     <RelativeLayout
         android:id="@+id/layoutTitleBottom"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="32dp"
         android:layout_below="@id/routePlanGroup"
-        android:layout_marginTop="20dp" >
+        android:layout_marginTop="5dp" >
 
         <TextView
             android:layout_width="match_parent"
@@ -91,7 +91,7 @@
             android:gravity="center_horizontal"
             android:text="离线地图管理"
             android:textColor="#99000000"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
 
         <View
             android:layout_width="match_parent"
@@ -106,12 +106,12 @@
         android:layout_below="@id/layoutTitleBottom"
         android:layout_marginLeft="7dp"
         android:layout_marginRight="7dp"
-        android:layout_marginTop="10dp" >
+        android:layout_marginTop="5dp" >
 
         <ImageView
             android:id="@+id/imageUpdateSD"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentLeft="true"
             android:src="@drawable/ui_sync_cloud" />
 
@@ -125,7 +125,7 @@
             android:text="SD"
             android:gravity="center"
             android:textColor="#1E88E5"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
 
         <TextView
             android:id="@+id/textUpdateSD"
@@ -148,9 +148,9 @@
             android:textSize="@dimen/setting_route_plan_pref_text_size" />
         
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="30dp"
             android:id="@+id/imageUpdateOL"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_toLeftOf="@id/textUpdateOL"
             android:src="@drawable/ui_sync_cloud" />
         
@@ -164,7 +164,7 @@
             android:text="OL"
             android:gravity="center"
             android:textColor="#1E88E5"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
         
     </RelativeLayout>
 

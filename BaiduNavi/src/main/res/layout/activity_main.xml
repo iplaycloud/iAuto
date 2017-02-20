@@ -11,24 +11,24 @@
 
     <RelativeLayout
         android:id="@+id/layoutLocate"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_margin="5dp"
         android:background="@drawable/shape_locate_bg" >
 
         <ImageView
-            android:layout_width="38dp"
-            android:layout_height="38dp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
             android:layout_centerInParent="true"
             android:src="@drawable/ui_map_locate_dark" />
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/layoutLocateMode"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
         android:layout_alignParentBottom="true"
         android:layout_margin="5dp"
         android:layout_toRightOf="@id/layoutLocate"
@@ -36,13 +36,13 @@
 
         <TextView
             android:id="@+id/textLocateMode"
-            android:layout_width="50dp"
-            android:layout_height="38dp"
+            android:layout_width="38dp"
+            android:layout_height="28dp"
             android:layout_centerInParent="true"
             android:gravity="center"
             android:text="普通"
             android:textColor="#666666"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -65,7 +65,7 @@
     <RelativeLayout
         android:id="@+id/layoutTop"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="5dp" >
 
         <RelativeLayout
@@ -97,8 +97,8 @@
             android:background="@drawable/ui_back_arrow_bg_transparent" >
 
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/ui_main_setting_dot" />
 
@@ -107,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="13dp"
+                android:layout_marginBottom="8dp"
                 android:text="设置"
                 android:textColor="#ffffff"
                 android:textSize="18.5sp" />
@@ -123,8 +123,8 @@
 
             <ImageView
                 android:id="@+id/imageRoadCondition"
-                android:layout_width="54dp"
-                android:layout_height="54dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
                 android:layout_centerInParent="true"
                 android:src="@drawable/main_icon_roadcondition_off" />
         </RelativeLayout>
@@ -139,8 +139,8 @@
 
             <ImageView
                 android:id="@+id/imageSatellite"
-                android:layout_width="54dp"
-                android:layout_height="54dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:layout_centerInParent="true"
                 android:src="@drawable/main_map_icon_satellite_off" />
 
@@ -149,7 +149,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="13dp"
+                android:layout_marginBottom="8dp"
                 android:text="卫星"
                 android:textColor="#ffffff"
                 android:textSize="18.5sp" />

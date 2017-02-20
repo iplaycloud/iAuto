@@ -5,9 +5,13 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.tchip.baidunavi"
+        applicationId "com.xctx.baidunavi"
         minSdkVersion 14
         targetSdkVersion 19
+        ndk{
+            abiFilter "armeabi"
+        }
+
     }
 
     buildTypes {
