@@ -1,4 +1,4 @@
-package com.tchip.autosetting.util;
+package com.xctx.autosetting.util;
 
 import java.io.File;
 import java.io.FileOutputStream;

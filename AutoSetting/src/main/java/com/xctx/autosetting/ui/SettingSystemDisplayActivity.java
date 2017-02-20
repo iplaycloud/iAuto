@@ -1,15 +1,15 @@
-package com.tchip.autosetting.ui;
+package com.xctx.autosetting.ui;
 
 import java.util.Calendar;
 
-import com.tchip.autosetting.Constant;
-import com.tchip.autosetting.Constant.Setting;
-import com.tchip.autosetting.R;
-import com.tchip.autosetting.util.MyLog;
-import com.tchip.autosetting.util.ProviderUtil;
-import com.tchip.autosetting.util.ProviderUtil.Name;
-import com.tchip.autosetting.util.SettingUtil;
-import com.tchip.autosetting.util.TypefaceUtil;
+import com.xctx.autosetting.Constant;
+import com.xctx.autosetting.Constant.Setting;
+import com.xctx.autosetting.R;
+import com.xctx.autosetting.util.MyLog;
+import com.xctx.autosetting.util.ProviderUtil;
+import com.xctx.autosetting.util.ProviderUtil.Name;
+import com.xctx.autosetting.util.SettingUtil;
+import com.xctx.autosetting.util.TypefaceUtil;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,18 +1,17 @@
-package com.tchip.autosetting.ui;
+package com.xctx.autosetting.ui;
 
 import java.util.Calendar;
 
-import com.tchip.autosetting.Constant;
-import com.tchip.autosetting.R;
-import com.tchip.autosetting.Constant.Setting;
-import com.tchip.autosetting.util.HintUtil;
-import com.tchip.autosetting.util.MyLog;
-import com.tchip.autosetting.util.OpenUtil;
-import com.tchip.autosetting.util.ProviderUtil;
-import com.tchip.autosetting.util.ProviderUtil.Name;
-import com.tchip.autosetting.util.SettingUtil;
-import com.tchip.autosetting.util.TelephonyUtil;
-import com.tchip.autosetting.util.OpenUtil.MODULE_TYPE;
+import com.xctx.autosetting.Constant;
+import com.xctx.autosetting.R;
+import com.xctx.autosetting.Constant.Setting;
+import com.xctx.autosetting.util.HintUtil;
+import com.xctx.autosetting.util.OpenUtil;
+import com.xctx.autosetting.util.ProviderUtil;
+import com.xctx.autosetting.util.ProviderUtil.Name;
+import com.xctx.autosetting.util.SettingUtil;
+import com.xctx.autosetting.util.TelephonyUtil;
+import com.xctx.autosetting.util.OpenUtil.MODULE_TYPE;
 
 import android.app.Activity;
 import android.content.Context;
@@ -29,7 +28,6 @@ import android.view.View.OnLongClickListener;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 

@@ -1,6 +1,6 @@
-package com.tchip.autosetting;
+package com.xctx.autosetting;
 
-import com.tchip.autosetting.util.MyUncaughtExceptionHandler;
+import com.xctx.autosetting.util.MyUncaughtExceptionHandler;
 
 import android.app.Application;
 

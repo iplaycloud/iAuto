@@ -1,4 +1,4 @@
-package com.tchip.autosetting.util;
+package com.xctx.autosetting.util;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -16,8 +16,8 @@ import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
 
-import com.tchip.autosetting.Constant;
-import com.tchip.autosetting.util.ProviderUtil.Name;
+import com.xctx.autosetting.Constant;
+import com.xctx.autosetting.util.ProviderUtil.Name;
 
 import android.content.ContentResolver;
 import android.content.Context;

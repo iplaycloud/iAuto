@@ -1,9 +1,9 @@
-package com.tchip.autosetting.ui;
+package com.xctx.autosetting.ui;
 
-import com.tchip.autosetting.R;
-import com.tchip.autosetting.util.MyLog;
-import com.tchip.autosetting.util.ProviderUtil;
-import com.tchip.autosetting.util.ProviderUtil.Name;
+import com.xctx.autosetting.R;
+import com.xctx.autosetting.util.MyLog;
+import com.xctx.autosetting.util.ProviderUtil;
+import com.xctx.autosetting.util.ProviderUtil.Name;
 
 import android.app.Activity;
 import android.content.Context;

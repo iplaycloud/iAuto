@@ -1,18 +1,17 @@
-package com.tchip.autosetting.ui;
+package com.xctx.autosetting.ui;
 
-import com.tchip.autosetting.Constant;
-import com.tchip.autosetting.R;
-import com.tchip.autosetting.util.OpenUtil;
-import com.tchip.autosetting.util.OpenUtil.MODULE_TYPE;
-import com.tchip.autosetting.util.ProviderUtil;
-import com.tchip.autosetting.util.ProviderUtil.Name;
-import com.tchip.autosetting.util.SettingUtil;
-import com.tchip.autosetting.util.TypefaceUtil;
+import com.xctx.autosetting.Constant;
+import com.xctx.autosetting.R;
+import com.xctx.autosetting.util.OpenUtil;
+import com.xctx.autosetting.util.OpenUtil.MODULE_TYPE;
+import com.xctx.autosetting.util.ProviderUtil;
+import com.xctx.autosetting.util.ProviderUtil.Name;
+import com.xctx.autosetting.util.SettingUtil;
+import com.xctx.autosetting.util.TypefaceUtil;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;

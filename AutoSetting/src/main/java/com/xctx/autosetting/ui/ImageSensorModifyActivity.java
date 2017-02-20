@@ -1,4 +1,4 @@
-package com.tchip.autosetting.ui;
+package com.xctx.autosetting.ui;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,20 +7,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import com.tchip.autosetting.R;
-import com.tchip.autosetting.util.HintUtil;
-import com.tchip.autosetting.util.MyLog;
-import com.tchip.autosetting.util.SettingUtil;
+import com.xctx.autosetting.R;
+import com.xctx.autosetting.util.MyLog;
+import com.xctx.autosetting.util.SettingUtil;
 
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.view.textservice.TextServicesManager;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;

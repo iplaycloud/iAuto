@@ -1,4 +1,4 @@
-package com.tchip.autosetting;
+package com.xctx.autosetting;
 
 public interface Constant {
 	/** Debug：打印Log */

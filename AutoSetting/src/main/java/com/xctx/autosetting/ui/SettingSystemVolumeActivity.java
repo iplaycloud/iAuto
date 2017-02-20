@@ -1,6 +1,6 @@
-package com.tchip.autosetting.ui;
+package com.xctx.autosetting.ui;
 
-import com.tchip.autosetting.R;
+import com.xctx.autosetting.R;
 
 import android.app.Activity;
 import android.content.Context;

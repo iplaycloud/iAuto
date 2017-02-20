@@ -1,9 +1,9 @@
-package com.tchip.autosetting.util;
+package com.xctx.autosetting.util;
 
-import com.tchip.autosetting.ui.QuickSettingActivity;
-import com.tchip.autosetting.ui.SettingGravityActivity;
-import com.tchip.autosetting.ui.SettingSystemDisplayActivity;
-import com.tchip.autosetting.ui.SettingSystemVolumeActivity;
+import com.xctx.autosetting.ui.QuickSettingActivity;
+import com.xctx.autosetting.ui.SettingGravityActivity;
+import com.xctx.autosetting.ui.SettingSystemDisplayActivity;
+import com.xctx.autosetting.ui.SettingSystemVolumeActivity;
 
 import android.app.Activity;
 import android.content.ComponentName;

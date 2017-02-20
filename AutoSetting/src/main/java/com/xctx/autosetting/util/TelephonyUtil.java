@@ -1,11 +1,9 @@
-package com.tchip.autosetting.util;
+package com.xctx.autosetting.util;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
-
-import com.tchip.autosetting.Constant;
 
 import android.content.Context;
 import android.content.Intent;

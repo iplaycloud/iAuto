@@ -1,6 +1,6 @@
-package com.tchip.autosetting.util;
+package com.xctx.autosetting.util;
 
-import com.tchip.autosetting.Constant;
+import com.xctx.autosetting.Constant;
 
 import android.util.Log;
 
