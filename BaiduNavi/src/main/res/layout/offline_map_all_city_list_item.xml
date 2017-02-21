@@ -6,7 +6,7 @@
     <ImageView
         android:id="@+id/imageIcon"
         android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_height="25dp"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="20dp"
@@ -16,12 +16,12 @@
         android:id="@+id/textAllCityList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_centerVertical="true"
         android:layout_toRightOf="@id/imageIcon"
         android:text="示例"
-        android:textSize="30sp" />
+        android:textSize="18sp" />
 
 </RelativeLayout>
