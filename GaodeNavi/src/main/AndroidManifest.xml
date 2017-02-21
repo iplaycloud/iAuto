@@ -27,7 +27,7 @@
         android:label="@string/app_name" >
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="248b31e913868bede0fdbcb2571177be" />
+            android:value="12cd461bbc69b15e55f5955a290242cd" />
 
         <activity
             android:name="com.xctx.gaodenavi.ui.activity.MainActivity"
