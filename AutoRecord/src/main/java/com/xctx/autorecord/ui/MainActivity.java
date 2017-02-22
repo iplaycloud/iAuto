@@ -215,7 +215,7 @@ public class MainActivity extends Activity {
 
 		getContentResolver()
 				.registerContentObserver(
-						Uri.parse("content://com.tchip.provider.AutoProvider/state/name/"),
+						Uri.parse("content://com.xctx.provider.AutoProvider/state/name/"),
 						true, new AutoContentObserver(new Handler()));
 
 		/** 创建前后录像存储卡目录 */

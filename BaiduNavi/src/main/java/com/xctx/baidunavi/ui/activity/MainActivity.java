@@ -1146,7 +1146,7 @@ public class MainActivity extends FragmentActivity implements
 		layoutNearAdvice.setVisibility(View.GONE);
 
 		pageIndex = 0; // 重设搜索结果页码为0
-		startSearchPlace(content, nowLatLng, true, false);
+		//startSearchPlace(content, nowLatLng, true, false);
 	}
 
 	/**

@@ -163,7 +163,7 @@ public class MainActivity extends Activity {
 				uiConfig = UIConfig.TQ7;
 			}
 			setContentView(R.layout.activity_pager_6);
-		} else if("Nexus 6".equals(model)){ // TX2-6.86
+		} else { // TX2-6.86
 			if ("SL".equals(brand)) {
 				uiConfig = UIConfig.SL6;
 			} else if ("WO".equals(brand)) {

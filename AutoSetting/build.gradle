@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.tchip.autosetting"
+        applicationId "com.xctx.autosetting"
         minSdkVersion 21
         targetSdkVersion 22
     }

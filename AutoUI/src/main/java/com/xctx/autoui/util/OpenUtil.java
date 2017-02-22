@@ -156,14 +156,14 @@ public class OpenUtil {
 				switch (moduleTye) {
 				case CLOUD_CENTER:
 					activity.sendBroadcast(new Intent(
-							"tchip.intent.action.ACTION_GPS_ON")); // 打开GPS
+							"xctx.intent.action.ACTION_GPS_ON")); // 打开GPS
 					startAppbyPackage(activity,
 							"com.hdsc.monitor.heart.monitorvoice");
 					break;
 
 				case CLOUD_DIALER:
 					activity.sendBroadcast(new Intent(
-							"tchip.intent.action.ACTION_GPS_ON")); // 打开GPS
+							"xctx.intent.action.ACTION_GPS_ON")); // 打开GPS
 					Intent intentCloudDialer = new Intent(Intent.ACTION_VIEW);
 					intentCloudDialer.setClassName(
 							"com.hdsc.monitor.heart.monitorvoice",
@@ -175,7 +175,7 @@ public class OpenUtil {
 
 				case CLOUD_PICK:
 					activity.sendBroadcast(new Intent(
-							"tchip.intent.action.ACTION_GPS_ON")); // 打开GPS
+							"xctx.intent.action.ACTION_GPS_ON")); // 打开GPS
 					Intent intenCloudPick = new Intent(Intent.ACTION_VIEW);
 					intenCloudPick.setClassName(
 							"com.hdsc.monitor.heart.monitorvoice",
@@ -197,7 +197,7 @@ public class OpenUtil {
 				case DIALER:
 					ComponentName componentDialer = new ComponentName(
 							"com.goodocom.gocsdk",
-							"com.tchip.call.MainActivity");
+							"com.xctx.call.MainActivity");
 					Intent intentDialer = new Intent();
 					intentDialer.setComponent(componentDialer);
 					intentDialer.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
@@ -229,7 +229,7 @@ public class OpenUtil {
 				case EDOG:
 					// SettingUtil.setEDogEnable(true);
 					activity.sendBroadcast(new Intent(
-							"tchip.intent.action.ACTION_GPS_ON")); // 打开GPS
+							"xctx.intent.action.ACTION_GPS_ON")); // 打开GPS
 					// ComponentName componentEDog = new ComponentName(
 					// "com.nengzhong.app.activity",
 					// "com.nengzhong.app.activity.DogActivity");
@@ -257,8 +257,8 @@ public class OpenUtil {
 
 				case FMTRANSMIT:
 					ComponentName componentFM = new ComponentName(
-							"com.tchip.autofm",
-							"com.tchip.autofm.ui.MainActivity");
+							"com.xctx.autofm",
+							"com.xctx.autofm.ui.MainActivity");
 					Intent intentFM = new Intent();
 					intentFM.setComponent(componentFM);
 					intentFM.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
@@ -335,7 +335,7 @@ public class OpenUtil {
 
 				case NAVI_GAODE:
 					activity.sendBroadcast(new Intent(
-							"tchip.intent.action.ACTION_GPS_ON")); // 打开GPS
+							"xctx.intent.action.ACTION_GPS_ON")); // 打开GPS
 					ComponentName componentGaodeMobile = new ComponentName(
 							"com.autonavi.minimap",
 							"com.autonavi.map.activity.SplashActivity");
@@ -348,7 +348,7 @@ public class OpenUtil {
 
 				case NAVI_GAODE_CAR:
 					activity.sendBroadcast(new Intent(
-							"tchip.intent.action.ACTION_GPS_ON")); // 打开GPS
+							"xctx.intent.action.ACTION_GPS_ON")); // 打开GPS
 					ComponentName componentGaodeCar;
 					componentGaodeCar = new ComponentName(
 							"com.autonavi.amapauto",
@@ -362,7 +362,7 @@ public class OpenUtil {
 
 				case NAVI_GAODE_CAR_MIRROR:
 					activity.sendBroadcast(new Intent(
-							"tchip.intent.action.ACTION_GPS_ON")); // 打开GPS
+							"xctx.intent.action.ACTION_GPS_ON")); // 打开GPS
 					ComponentName componentGaodeCarMirror;
 					componentGaodeCarMirror = new ComponentName(
 							"com.autonavi.amapautolite",
@@ -376,8 +376,8 @@ public class OpenUtil {
 
 				case OTA:
 					Intent intentSettingOTA = new Intent(Intent.ACTION_VIEW);
-					intentSettingOTA.setClassName("com.tchipota",
-							"com.tchipota.MainActivity");
+					intentSettingOTA.setClassName("com.xctxota",
+							"com.xctxota.MainActivity");
 					intentSettingOTA.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
 							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
 					activity.startActivity(intentSettingOTA);
@@ -385,8 +385,8 @@ public class OpenUtil {
 
 				case RECORD: {
 					ComponentName componentRecord = new ComponentName(
-							"com.tchip.autorecord",
-							"com.tchip.autorecord.ui.MainActivity");
+							"com.xctx.autorecord",
+							"com.xctx.autorecord.ui.MainActivity");
 					Intent intentRecord = new Intent();
 					intentRecord.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
 							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
@@ -397,8 +397,8 @@ public class OpenUtil {
 
 				case SETTING:
 					ComponentName componentSetting = new ComponentName(
-							"com.tchip.autosetting",
-							"com.tchip.autosetting.ui.MainActivity");
+							"com.xctx.autosetting",
+							"com.xctx.autosetting.ui.MainActivity");
 					Intent intentSetting = new Intent();
 					intentSetting.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 //							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
@@ -476,8 +476,8 @@ public class OpenUtil {
 
 				case WEATHER:
 					ComponentName componentWeather;
-					componentWeather = new ComponentName("com.tchip.weather",
-							"com.tchip.weather.ui.MainActivity");
+					componentWeather = new ComponentName("com.xctx.weather",
+							"com.xctx.weather.ui.MainActivity");
 					Intent intentWeather = new Intent();
 					intentWeather.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
 							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
@@ -623,8 +623,8 @@ public class OpenUtil {
 				"com.tudou.android", // 土豆视频
 				"com.chartcross.gpstest", // GPS_Test
 				"com.mediatek.filemanager", // 文件管理
-				"com.tchip.autofm", // FM发射
-				"com.tchip.weather" // 天气
+				"com.xctx.autofm", // FM发射
+				"com.xctx.weather" // 天气
 		};
 		killApp(context, arrayKillApp);
 	}
@@ -645,7 +645,7 @@ public class OpenUtil {
 			openModule(activity, MODULE_TYPE.EDOG);
 		} else if ("com.mediatek.filemanager".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.FILE_MANAGER_MTK);
-		} else if ("com.tchip.autofm".equals(pkgWhenBack)) {
+		} else if ("com.xctx.autofm".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.FMTRANSMIT);
 		} else if ("com.android.gallery3d".equals(pkgWhenBack)) {
 			// FIXME:视频回放界面倒车回到图库
@@ -653,10 +653,10 @@ public class OpenUtil {
 			sendKeyCode(KeyEvent.KEYCODE_HOME);
 		} else if ("cn.kuwo.kwmusiccar".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.MUSIC);
-		} else if ("com.tchip.autosetting".equals(pkgWhenBack)
+		} else if ("com.xctx.autosetting".equals(pkgWhenBack)
 				|| "com.android.settings".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.SETTING);
-		} else if ("com.tchip.weather".equals(pkgWhenBack)) {
+		} else if ("com.xctx.weather".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.WEATHER);
 		} else if ("com.txznet.webchat".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.WECHAT);
@@ -668,11 +668,11 @@ public class OpenUtil {
 			openModule(activity, MODULE_TYPE.XIMALAYA);
 		} else if ("com.youku.phone".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.YOUKU);
-		} else if ("com.tchipota".equals(pkgWhenBack)) {
+		} else if ("com.xctxota".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.OTA);
-		} else if ("com.tchip.autorecord".equals(pkgWhenBack)) {
+		} else if ("com.xctx.autorecord".equals(pkgWhenBack)) {
 
-		} else if ("com.tchip.autoui".equals(pkgWhenBack)) {
+		} else if ("com.xctx.autoui".equals(pkgWhenBack)) {
 			sendKeyCode(KeyEvent.KEYCODE_HOME);
 		} else if ("com.mediatek.engineermode".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.ENGINEER_MODE);
@@ -680,9 +680,9 @@ public class OpenUtil {
 			openModule(activity, MODULE_TYPE.MTK_LOGGER);
 		} else if ("com.mediatek.ygps".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.MTK_YGPS);
-		} else if ("com.tchip.txzstart".equals(pkgWhenBack)) {
+		} else if ("com.xctx.txzstart".equals(pkgWhenBack)) {
 			activity.sendBroadcast(new Intent(
-					"tchip.intent.action.MOVE_RECORD_BACK"));
+					"xctx.intent.action.MOVE_RECORD_BACK"));
 		} else if ("com.tudou.android".equals(pkgWhenBack)) {
 			openModule(activity, MODULE_TYPE.VIDEO_ONLINE);
 		} else if ("com.chartcross.gpstest".equals(pkgWhenBack)) {
