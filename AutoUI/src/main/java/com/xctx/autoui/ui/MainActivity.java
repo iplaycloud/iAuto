@@ -147,32 +147,8 @@ public class MainActivity extends Activity {
 
 		brand = Build.BRAND;
 		model = Build.MODEL;
-		if ("TX2S".equals(model)) { // TX2S-9.76
-			if ("SL".equals(brand)) {
-				uiConfig = UIConfig.SL9;
-			} else if ("JJ".equals(brand)) {
-				uiConfig = UIConfig.JJ9;
-			} else {
-				uiConfig = UIConfig.TQ9;
-			}
-			setContentView(R.layout.activity_pager_9);
-		} else if ("TX3".equals(model)) { // TX3-7.84
-			if ("SL".equals(brand)) {
-				uiConfig = UIConfig.SL7;
-			} else {
-				uiConfig = UIConfig.TQ7;
-			}
-			setContentView(R.layout.activity_pager_6);
-		} else { // TX2-6.86
-			if ("SL".equals(brand)) {
-				uiConfig = UIConfig.SL6;
-			} else if ("WO".equals(brand)) {
-				uiConfig = UIConfig.WO6;
-			} else {
-				uiConfig = UIConfig.TQ9;
-			}
-			setContentView(R.layout.activity_pager_9);
-		}
+
+		setContentView(R.layout.activity_pager_9);
 
 		LayoutInflater inflater = LayoutInflater.from(this);
 		MyLog.d("BRAND:" + brand + ",UIConfig:" + uiConfig);
@@ -696,6 +672,10 @@ public class MainActivity extends Activity {
 			RelativeLayout layoutPhone = (RelativeLayout) findViewById(R.id.layoutPhone);
 			layoutPhone.setOnClickListener(myOnClickListener);
 		}
+
+		RelativeLayout layoutXimalaya = (RelativeLayout) findViewById(R.id.layoutXimalaya);
+		layoutXimalaya.setOnClickListener(myOnClickListener);
+
 		// 翼卡
 		RelativeLayout layoutYiKa = (RelativeLayout) findViewById(R.id.layoutYiKa);
 		layoutYiKa.setOnClickListener(myOnClickListener);
@@ -732,6 +712,10 @@ public class MainActivity extends Activity {
 		// 设置
 		RelativeLayout layoutSetting = (RelativeLayout) findViewById(R.id.layoutSetting);
 		layoutSetting.setOnClickListener(myOnClickListener);
+
+		// GPS_TEST
+		RelativeLayout layoutGpsTest = (RelativeLayout) findViewById(R.id.layoutGpsTest);
+		layoutGpsTest.setOnClickListener(myOnClickListener);
 
 		isPagerTwoShowed = true;
 		updateAllInfo();

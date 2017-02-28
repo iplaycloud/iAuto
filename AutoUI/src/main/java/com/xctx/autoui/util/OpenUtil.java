@@ -261,8 +261,8 @@ public class OpenUtil {
 							"com.xctx.autofm.ui.MainActivity");
 					Intent intentFM = new Intent();
 					intentFM.setComponent(componentFM);
-					intentFM.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
-							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
+					intentFM.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
 					activity.startActivity(intentFM);
 					break;
 
@@ -281,12 +281,12 @@ public class OpenUtil {
 
 				case GPS_TEST:
 					ComponentName componentExtGps = new ComponentName(
-							"com.chartcross.gpstest",
-							"com.chartcross.gpstest.GPSTest");
+							"com.chartcross.gpstestplus",
+							"com.chartcross.gpstestplus.GPSTestPlus");
 					Intent intentExtGps = new Intent();
 					intentExtGps.setComponent(componentExtGps);
-					intentExtGps.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
-							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
+					intentExtGps.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
 					activity.startActivity(intentExtGps);
 					break;
 
@@ -305,12 +305,14 @@ public class OpenUtil {
 					ComponentName componentMusic;
 					// 普通HD版："cn.kuwo.kwmusichd","cn.kuwo.kwmusichd.WelcomeActivity"
 					// 车载HD版："cn.kuwo.kwmusiccar","cn.kuwo.kwmusiccar.WelcomeActivity"
-					componentMusic = new ComponentName("cn.kuwo.kwmusiccar",
-							"cn.kuwo.kwmusiccar.MainActivity");
+					//componentMusic = new ComponentName("cn.kuwo.kwmusiccar",
+					//		"cn.kuwo.kwmusiccar.MainActivity");
+					componentMusic = new ComponentName("cn.kuwo.kwmusichd",
+									"cn.kuwo.kwmusichd.WelcomeActivity");
 					Intent intentMusic = new Intent();
 					intentMusic.setComponent(componentMusic);
-					intentMusic.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
-							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
+					intentMusic.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
 					activity.startActivity(intentMusic);
 					break;
 
@@ -490,19 +492,21 @@ public class OpenUtil {
 					componentWechat = new ComponentName("com.txznet.webchat",
 							"com.txznet.webchat.ui.AppStartActivity");
 					Intent intentWechat = new Intent();
-					intentWechat.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
-							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
+					intentWechat.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
 					intentWechat.setComponent(componentWechat);
 					activity.startActivity(intentWechat);
 					break;
 
 				case YIKA:
 					ComponentName componentYika;
-					componentYika = new ComponentName("com.coagent.ecar",
-							"com.coagent.ecarnet.car.activity.WelcomeActivity");
+//					componentYika = new ComponentName("com.coagent.ecar",
+//							"com.coagent.ecarnet.car.activity.WelcomeActivity");
+										componentYika = new ComponentName("com.txznet.adapter",
+							"com.txznet.adapter.ui.MainActivity");
 					Intent intentYika = new Intent();
-					intentYika.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
-							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
+					intentYika.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
 					intentYika.setComponent(componentYika);
 					activity.startActivity(intentYika);
 					break;
