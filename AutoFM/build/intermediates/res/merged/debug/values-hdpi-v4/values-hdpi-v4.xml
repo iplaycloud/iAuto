@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="freq_minmax_text_size">12sp</dimen>
+    <dimen name="hint_margin_bottom">25dp</dimen>
+    <dimen name="hint_text_size">55sp</dimen>
+    <dimen name="power_margin">30dp</dimen>
+    <dimen name="seekbar_height">60dp</dimen>
+    <dimen name="seekbar_width">345dp</dimen>
+    <dimen name="trim_length">65dp</dimen>
+    <dimen name="trim_margin">0dp</dimen>
+</resources>

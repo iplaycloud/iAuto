@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable\\seekbar.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable\\power.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable\\power.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_left.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable\\arrow_left.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_right.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable\\arrow_right.xml"
+    }
+]

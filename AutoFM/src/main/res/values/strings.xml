@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoFM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_fm_transmit">FM发射</string>
+    <string name="freq_min">87.5MHz</string>
+    <string name="freq_max">108.0MHz</string>
+    <string name="fmt_disable">FM发射已关闭</string>
+
+</resources>

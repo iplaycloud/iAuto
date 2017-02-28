@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoFM</string>
+    <string name="fmt_disable">FM发射已关闭</string>
+    <string name="freq_max">108.0MHz</string>
+    <string name="freq_min">87.5MHz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_fm_transmit">FM发射</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+</resources>

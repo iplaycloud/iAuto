@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\power_normal.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\power_normal.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow_left_normal.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\arrow_left_normal.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow_right_pressed.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\arrow_right_pressed.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow_left_pressed.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\arrow_left_pressed.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_bg.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\main_bg.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow_right_normal.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\arrow_right_normal.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\power_pressed.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\power_pressed.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\scale.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\scale.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_normal.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\seekbar_normal.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_pressed.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\drawable-hdpi\\seekbar_pressed.png"
+    }
+]

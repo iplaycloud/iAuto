@@ -1,0 +1,142 @@
+[
+    {
+        "outputFile": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 43,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 47,
+                    "endOffset": 142
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 47,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 147,
+                    "endColumn": 45,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 249,
+                        "endColumn": 45,
+                        "endOffset": 290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 193,
+                    "endColumn": 44,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 44,
+                        "endOffset": 244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 238,
+                    "endColumn": 52,
+                    "endOffset": 286
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 52,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 291,
+                    "endColumn": 50,
+                    "endOffset": 337
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 153,
+                        "endColumn": 50,
+                        "endOffset": 199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 342,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 629
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 483
+                    }
+                }
+            }
+        ]
+    }
+]

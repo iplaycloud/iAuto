@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg" >
+
+    <SeekBar
+        android:id="@+id/fmSeekBar"
+        android:layout_width="@dimen/seekbar_width"
+        android:layout_height="@dimen/seekbar_height"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:progressDrawable="@drawable/seekbar"
+        android:thumb="@null" />
+
+    <ImageButton
+        android:id="@+id/fmFreqDecrease"
+        android:layout_width="@dimen/trim_length"
+        android:layout_height="@dimen/trim_length"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/trim_margin"
+        android:layout_toLeftOf="@id/fmSeekBar"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@null"
+        android:src="@drawable/arrow_left" />
+
+    <ImageButton
+        android:id="@+id/fmFreqIncrease"
+        android:layout_width="@dimen/trim_length"
+        android:layout_height="@dimen/trim_length"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/trim_margin"
+        android:layout_toRightOf="@id/fmSeekBar"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@null"
+        android:src="@drawable/arrow_right" />
+
+    <ImageView
+        android:id="@+id/imageTrim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fmSeekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@null"
+        android:src="@drawable/scale" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/imageTrim"
+        android:layout_below="@id/imageTrim"
+        android:text="@string/freq_min"
+        android:textColor="#8e8f92"
+        android:textSize="@dimen/freq_minmax_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/imageTrim"
+        android:layout_below="@id/imageTrim"
+        android:text="@string/freq_max"
+        android:textColor="#8e8f92"
+        android:textSize="@dimen/freq_minmax_text_size" />
+
+    <TextView
+        android:id="@+id/textHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fmSeekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/hint_margin_bottom"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/hint_text_size" />
+
+    <!-- android:background="?android:attr/selectableItemBackgroundBorderless" -->
+    <!-- android:background="?android:attr/selectableItemBackground -->
+
+    <ImageButton
+        android:id="@+id/imagePower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/power_margin"
+        android:layout_marginRight="@dimen/power_margin"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@null"
+        android:src="@drawable/power" />
+
+</RelativeLayout>
