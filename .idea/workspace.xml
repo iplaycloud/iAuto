@@ -4,8 +4,10 @@
     <shared>
       <config>
         <devices>
-          <device id="Nexus 7 2013" />
+          <device id="Nexus 5" />
           <device id="Nexus 10" />
+          <device id="Nexus 9" />
+          <device id="Nexus 7 2013" />
         </devices>
       </config>
     </shared>
@@ -17,239 +19,190 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca16c6ff-41e9-4a80-a25d-7a83ae8f4084" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/drawable-xhdpi/sl_6_file_manager.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_android_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_android_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_multimedia.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_pager_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_pager_9.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/assets/debug/fonts/Font-Helvetica-Neue-LT-Pro-Bd.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/assets/debug/fonts/Font-Helvetica-Neue-LT-Pro-Blk.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/assets/debug/fonts/Font-Helvetica-Neue-LT-Pro.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/Constant$Broadcast.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/Constant$FMTransmit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/Constant$Path.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/Constant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/MyApp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity$AutoContentObserver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity$EnableSeekBarThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity$FMReceiver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity$MyOnClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity$TaskHandler$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity$TaskHandler$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity$TaskHandler$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity$TaskHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/ui/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/util/ClickUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/util/MyLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/util/MyUncaughtExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/util/ProviderUtil$Name.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/util/ProviderUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/util/SettingUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental-verifier/debug/com/xctx/autofm/util/TypefaceUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/packageDebug/zip-cache/Rs0gOa44JzdUbcA7QNwhE4GNjbk=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/Rs0gOa44JzdUbcA7QNwhE4GNjbk=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/instant-run-support/debug/instant-run.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/restart-dex/debug/build-info.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_77c3abac26944a82c8a94a3d4adea5987f4a4927/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c0fa85cd781f83a361aaced3798c464efa2a3ee9/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_89ef5c0b6f02e7f1316a6c3fbb0c54371101af91/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_9e82103ff3e78744473a3baf6c2999f8f54e58c3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_b68c8595ad7161256bdb15b0625f656ffd9caa8d/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/Constant$Broadcast.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/Constant$FMTransmit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/Constant$Path.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/Constant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/MyApp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity$AutoContentObserver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity$EnableSeekBarThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity$FMReceiver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity$MyOnClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity$TaskHandler$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity$TaskHandler$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity$TaskHandler$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity$TaskHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/ui/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/util/ClickUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/util/MyLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/util/MyUncaughtExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/util/ProviderUtil$Name.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/util/ProviderUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/util/SettingUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autofm/util/TypefaceUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/android/tools/fd/dummy/slice_0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/android/tools/fd/dummy/slice_1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/android/tools/fd/dummy/slice_2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/android/tools/fd/dummy/slice_3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/android/tools/fd/dummy/slice_4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity$AutoContentObserver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity$EnableSeekBarThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity$FMReceiver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity$MyOnClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity$TaskHandler$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity$TaskHandler$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity$TaskHandler$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity$TaskHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/xctx/autofm/ui/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/android/tools/fd/dummy/slice_5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/android/tools/fd/dummy/slice_6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/xctx/autofm/util/ClickUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/xctx/autofm/util/MyLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/xctx/autofm/util/MyUncaughtExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/xctx/autofm/util/ProviderUtil$Name.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/xctx/autofm/util/ProviderUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/xctx/autofm/util/SettingUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/xctx/autofm/util/TypefaceUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/android/tools/fd/dummy/slice_7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/android/tools/fd/dummy/slice_8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/Constant$Broadcast.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/Constant$FMTransmit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/Constant$Path.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/Constant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/MyApp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/xctx/autofm/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/android/tools/fd/dummy/slice_9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoFM/build/outputs/apk/AutoFM-debug.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_jj_9_one.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_jj_9_two.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_sl_7_one.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_sl_7_two.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_sl_9_one.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_sl_9_three.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_sl_9_two.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_tq_6_one.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_tq_6_two.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_tq_7_one.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_tq_7_two.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_wo_6_one.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_wo_6_two.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/drawable-xhdpi/sl_6_music_online.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoProvider_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoProvider_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoProvider_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoProvider_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoProvider_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoProvider_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoProvider_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoProvider_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoRecord_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoRecord_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoRecord_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoRecord_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoRecord_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoRecord_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoRecord_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoRecord_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoSetting_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoSetting_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoSetting_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoSetting_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoSetting_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoSetting_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoSetting_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoSetting_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoUI_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoUI_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoUI_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoUI_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoUI_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoUI_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoUI_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoUI_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoWeather_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoWeather_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoWeather_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoWeather_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoWeather_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoWeather_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoWeather_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_AutoWeather_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_BaiduNavi_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_BaiduNavi_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_BaiduNavi_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_BaiduNavi_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_BaiduNavi_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_BaiduNavi_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_BaiduNavi_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_BaiduNavi_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_GaodeNavi_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_GaodeNavi_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_GaodeNavi_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_GaodeNavi_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_GaodeNavi_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_GaodeNavi_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_GaodeNavi_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_GaodeNavi_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/AutoFM/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/BaiduLBS_Android.xml" afterPath="$PROJECT_DIR$/.idea/libraries/BaiduLBS_Android.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Msc.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Msc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Sunflower.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Sunflower.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoRecord/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/AutoRecord/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoSetting/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/AutoSetting/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$id.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$integer.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$layout.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$string.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$style.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$styleable.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$3.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$4.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$AutoContentObserver.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$AutoContentObserver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$CloseRecordThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$CloseRecordThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$FormatCardThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$FormatCardThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$GoingParkMonitorThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$GoingParkMonitorThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$MainReceiver$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$MainReceiver$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$MainReceiver$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$MainReceiver$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$MainReceiver.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$MainReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$MyOnClickListener.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$MyOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$MyTTSOnInitListener.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$MyTTSOnInitListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$ReturnWhenBackOverThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$ReturnWhenBackOverThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$StartDSAWhenBootThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$StartDSAWhenBootThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$StartRecordWhenAccOnThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$StartRecordWhenAccOnThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$StartRecordWhenBootThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$StartRecordWhenBootThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$SyncBackCarStatusThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$SyncBackCarStatusThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$TaskHandler$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$TaskHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$TaskHandler$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$TaskHandler$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$TaskHandler.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$TaskHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$UIConfig.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity$UIConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/ui/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/view/FormatDialog$Builder.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/classes/debug/com/xctx/autoui/view/FormatDialog$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$id.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$integer.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$layout.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$string.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$style.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$styleable.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$3.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$4.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$AutoContentObserver.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$AutoContentObserver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$CloseRecordThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$CloseRecordThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$FormatCardThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$FormatCardThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$GoingParkMonitorThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$GoingParkMonitorThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$MainReceiver$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$MainReceiver$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$MainReceiver$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$MainReceiver$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$MainReceiver.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$MainReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$MyOnClickListener.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$MyOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$MyTTSOnInitListener.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$MyTTSOnInitListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$ReturnWhenBackOverThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$ReturnWhenBackOverThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$StartDSAWhenBootThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$StartDSAWhenBootThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$StartRecordWhenAccOnThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$StartRecordWhenAccOnThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$StartRecordWhenBootThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$StartRecordWhenBootThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$SyncBackCarStatusThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$SyncBackCarStatusThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$TaskHandler$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$TaskHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$TaskHandler$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$TaskHandler$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$TaskHandler.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$TaskHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$UIConfig.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity$UIConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/ui/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/view/FormatDialog$Builder.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental-verifier/debug/com/xctx/autoui/view/FormatDialog$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageDebug/zip-cache/vtalMooii2vX1EI50xCrEW51bG0=" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageDebug/zip-cache/vtalMooii2vX1EI50xCrEW51bG0=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/vtalMooii2vX1EI50xCrEW51bG0=" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/vtalMooii2vX1EI50xCrEW51bG0=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/instant-run-support/debug/instant-run.zip" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/instant-run-support/debug/instant-run.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/MyApp.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/MyApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$id.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$integer.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$layout.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$string.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$style.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$styleable.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/service/TempMonitorService.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/service/TempMonitorService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$3.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$4.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$AutoContentObserver.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$AutoContentObserver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$CloseRecordThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$CloseRecordThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$FormatCardThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$FormatCardThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$GoingParkMonitorThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$GoingParkMonitorThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$MainReceiver$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$MainReceiver$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$MainReceiver$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$MainReceiver$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$MainReceiver.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$MainReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$MyOnClickListener.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$MyOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$MyTTSOnInitListener.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$MyTTSOnInitListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$ReturnWhenBackOverThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$ReturnWhenBackOverThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$StartDSAWhenBootThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$StartDSAWhenBootThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$StartRecordWhenAccOnThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$StartRecordWhenAccOnThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$StartRecordWhenBootThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$StartRecordWhenBootThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$SyncBackCarStatusThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$SyncBackCarStatusThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$TaskHandler$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$TaskHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$TaskHandler$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$TaskHandler$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$TaskHandler.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$TaskHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$UIConfig.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity$UIConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MultimediaActivity.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/ui/MultimediaActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/util/OpenUtil$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/util/OpenUtil$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/view/CirclePageIndicator$SavedState.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/view/CirclePageIndicator$SavedState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/view/CirclePageIndicator.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/view/CirclePageIndicator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/view/FormatDialog$Builder.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/view/FormatDialog$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/view/TransitionViewPager.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/view/TransitionViewPager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/view/TransitionViewPagerContainer.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/xctx/autoui/view/TransitionViewPagerContainer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/xctx/autoui/service/TempMonitorService.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/xctx/autoui/service/TempMonitorService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/xctx/autoui/view/CirclePageIndicator$SavedState.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/xctx/autoui/view/CirclePageIndicator$SavedState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/xctx/autoui/view/CirclePageIndicator.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/xctx/autoui/view/CirclePageIndicator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/xctx/autoui/view/FormatDialog$Builder.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/xctx/autoui/view/FormatDialog$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/xctx/autoui/view/TransitionViewPager.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/xctx/autoui/view/TransitionViewPager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/xctx/autoui/view/TransitionViewPagerContainer.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/xctx/autoui/view/TransitionViewPagerContainer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$3.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$4.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$AutoContentObserver.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$AutoContentObserver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$CloseRecordThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$CloseRecordThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$FormatCardThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$FormatCardThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$GoingParkMonitorThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$GoingParkMonitorThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$MainReceiver$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$MainReceiver$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$MainReceiver$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$MainReceiver$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$MainReceiver.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$MainReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$MyOnClickListener.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$MyOnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$MyTTSOnInitListener.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$MyTTSOnInitListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$ReturnWhenBackOverThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$ReturnWhenBackOverThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$StartDSAWhenBootThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$StartDSAWhenBootThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$StartRecordWhenAccOnThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$StartRecordWhenAccOnThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$StartRecordWhenBootThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$StartRecordWhenBootThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$SyncBackCarStatusThread.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$SyncBackCarStatusThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$TaskHandler$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$TaskHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$TaskHandler$2.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$TaskHandler$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$TaskHandler.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$TaskHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$UIConfig.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity$UIConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MultimediaActivity.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/xctx/autoui/ui/MultimediaActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/MyApp.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/MyApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$id.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$integer.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$layout.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$string.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$style.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$styleable.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/xctx/autoui/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/xctx/autoui/util/OpenUtil$1.class" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/xctx/autoui/util/OpenUtil$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/outputs/apk/AutoUI-debug.apk" afterPath="$PROJECT_DIR$/AutoUI/build/outputs/apk/AutoUI-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaiduNavi/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/BaiduNavi/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoFM/AutoFM.iml" afterPath="$PROJECT_DIR$/AutoFM/AutoFM.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/AutoFM/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoProvider/AutoProvider.iml" afterPath="$PROJECT_DIR$/AutoProvider/AutoProvider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoProvider/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AutoProvider/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoProvider/src/main/java/com/xctx/autoprovider/AutoProvider.java" afterPath="$PROJECT_DIR$/AutoProvider/src/main/java/com/xctx/autoprovider/AutoProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoProvider/src/main/java/com/xctx/autoprovider/AutoState.java" afterPath="$PROJECT_DIR$/AutoProvider/src/main/java/com/xctx/autoprovider/AutoState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoProvider/src/main/java/com/xctx/autoprovider/AutoStateDbHelper.java" afterPath="$PROJECT_DIR$/AutoProvider/src/main/java/com/xctx/autoprovider/AutoStateDbHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoRecord/AutoRecord.iml" afterPath="$PROJECT_DIR$/AutoRecord/AutoRecord.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoRecord/src/main/java/com/xctx/autorecord/ui/MainActivity.java" afterPath="$PROJECT_DIR$/AutoRecord/src/main/java/com/xctx/autorecord/ui/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoSetting/AutoSetting.iml" afterPath="$PROJECT_DIR$/AutoSetting/AutoSetting.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/AutoUI.iml" afterPath="$PROJECT_DIR$/AutoUI/AutoUI.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/generated/source/r/debug/com/xctx/autoui/R.java" afterPath="$PROJECT_DIR$/AutoUI/build/generated/source/r/debug/com/xctx/autoui/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/res/merged/debug/layout-land/activity_nexus_6_one.xml" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/res/merged/debug/layout-land/activity_nexus_6_one.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/res/merged/debug/layout-land/activity_nexus_6_three.xml" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/res/merged/debug/layout-land/activity_nexus_6_three.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/AutoUI/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/ui/MainActivity.java" afterPath="$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/ui/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/util/OpenUtil.java" afterPath="$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/util/OpenUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/util/ProviderUtil.java" afterPath="$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/util/ProviderUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_nexus_6_two.xml" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_nexus_6_two.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoWeather/AutoWeather.iml" afterPath="$PROJECT_DIR$/AutoWeather/AutoWeather.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_one.xml" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_one.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_three.xml" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_three.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaiduNavi/BaiduNavi.iml" afterPath="$PROJECT_DIR$/BaiduNavi/BaiduNavi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaodeNavi/GaodeNavi.iml" afterPath="$PROJECT_DIR$/GaodeNavi/GaodeNavi.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_sl_6_one.xml" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_one.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_sl_6_three.xml" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_three.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_sl_6_two.xml" afterPath="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_two.xml" />
     </list>
     <ignored path="iAuto.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -383,8 +336,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="630" column="39" selection-start-line="630" selection-start-column="39" selection-end-line="630" selection-end-column="39" />
+            <state relative-caret-position="487">
+              <caret line="533" column="85" selection-start-line="533" selection-start-column="85" selection-end-line="533" selection-end-column="85" />
               <folding>
                 <element signature="class#UIConfig#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -401,12 +354,12 @@
                 <element signature="class#StartRecordWhenAccOnThread#0;class#MainActivity#0" expanded="false" />
                 <element signature="class#CloseRecordThread#0;class#MainActivity#0" expanded="false" />
                 <element signature="class#AutoContentObserver#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#13017:14053" expanded="false" />
-                <element signature="method#isViewFromObject#0;class#13017:14053" expanded="false" />
-                <element signature="method#destroyItem#0;class#13017:14053" expanded="false" />
-                <element signature="method#updateLayoutOne#0;class#MainActivity#0" expanded="false" />
+                <element signature="class#13059:14095" expanded="false" />
+                <element signature="method#isViewFromObject#0;class#13059:14095" expanded="false" />
+                <element signature="method#destroyItem#0;class#13059:14095" expanded="false" />
                 <element signature="method#updateLayoutTwo#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#16351#16411#0" expanded="false" />
+                <element signature="e#16540#16600#0" expanded="false" />
+                <element signature="class#MyOnClickListener#0;class#MainActivity#0" expanded="false" />
                 <element signature="class#MyTTSOnInitListener#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#speakParkVoice#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#updateRecordInfo#0;class#MainActivity#0" expanded="false" />
@@ -434,6 +387,21 @@
                 <element signature="docComment;field#taskHandler#0;class#MainActivity#0" expanded="false" />
                 <element signature="class#TaskHandler#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#handleMessage#0;class#TaskHandler#0;class#MainActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_nexus_6_one.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_one.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
+              <folding>
+                <element signature="e#4217#5065#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -7059,17 +7027,17 @@
         <option value="$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/util/ProviderUtil.java" />
         <option value="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_two.xml" />
         <option value="$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_nexus_6_three.xml" />
-        <option value="$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/ui/MainActivity.java" />
         <option value="$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/util/OpenUtil.java" />
         <option value="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_three.xml" />
         <option value="$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_one.xml" />
+        <option value="$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/ui/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="220" />
-    <option name="y" value="105" />
-    <option name="width" value="1932" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -7097,7 +7065,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -7106,15 +7076,77 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iAuto" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoUI" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iAuto" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoUI" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iAuto" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoUI" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity_nexus_6_one.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iAuto" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoUI" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="device.picker.selection" value="45I7MR8PGUTOCA85" />
+    <property name="device.picker.selection" value="da133574" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="com.developerphil.adbidea.ui.ModuleChooserDialogHelper-SELECTED_MODULE" value="AutoUI" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/AutoUI/src/main/res/drawable-xhdpi" />
@@ -7129,7 +7161,7 @@
       <recent name="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\src\main\java\com\xctx\autoui" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.BaiduNavi">
+  <component name="RunManager" selected="Android App.AutoUI">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -7795,8 +7827,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="105" width="1932" height="1048" extended-state="0" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -7813,13 +7845,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37339056" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7704918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5171674" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7695906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28454334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6007026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22389667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25643778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -7981,72 +8013,62 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_multimedia.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_multimedia.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_multimedia.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/dialog_format.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/dialog_format.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_nexus_6_one.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="73" />
-          <folding>
-            <element signature="e#788#823#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_pager_6.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_pager_6.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_pager_6.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_two.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_two.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -8059,9 +8081,6 @@
             <element signature="e#4749#5514#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/AutoUI/libs/kuwomusicautosdk.jar!/cn/kuwo/autosdk/api/KWAPI.class">
@@ -8132,13 +8151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/android-sdk-windows/platforms/android-22/data/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="956" column="20" selection-start-line="956" selection-start-column="20" selection-end-line="956" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/drawable-hdpi/sl_6_fm.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -8150,18 +8162,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_nexus_6_two.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_nexus_6_three.xml" />
     <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_two.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
@@ -8174,9 +8189,6 @@
             <element signature="e#4749#5514#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoWeather/src/main/AndroidManifest.xml">
@@ -8199,58 +8211,78 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_pager_9.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_three.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#1948#6266#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_one.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="140" column="29" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
-          <folding>
-            <element signature="e#357#3130#0" expanded="false" />
-            <element signature="e#4141#4989#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_pager_9.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_three.xml">
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+          <folding>
+            <element signature="e#1094#1754#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/android-sdk-windows/platforms/android-22/data/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="956" column="67" selection-start-line="956" selection-start-column="67" selection-end-line="956" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout/activity_nexus_6_one.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="73" />
+          <folding>
+            <element signature="e#788#823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUI/src/main/res/layout-land/activity_nexus_6_one.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
+          <folding>
+            <element signature="e#4217#5065#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoUI/src/main/java/com/xctx/autoui/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="630" column="39" selection-start-line="630" selection-start-column="39" selection-end-line="630" selection-end-column="39" />
+        <state relative-caret-position="487">
+          <caret line="533" column="85" selection-start-line="533" selection-start-column="85" selection-end-line="533" selection-end-column="85" />
           <folding>
             <element signature="class#UIConfig#0;class#MainActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
@@ -8267,12 +8299,12 @@
             <element signature="class#StartRecordWhenAccOnThread#0;class#MainActivity#0" expanded="false" />
             <element signature="class#CloseRecordThread#0;class#MainActivity#0" expanded="false" />
             <element signature="class#AutoContentObserver#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#13017:14053" expanded="false" />
-            <element signature="method#isViewFromObject#0;class#13017:14053" expanded="false" />
-            <element signature="method#destroyItem#0;class#13017:14053" expanded="false" />
-            <element signature="method#updateLayoutOne#0;class#MainActivity#0" expanded="false" />
+            <element signature="class#13059:14095" expanded="false" />
+            <element signature="method#isViewFromObject#0;class#13059:14095" expanded="false" />
+            <element signature="method#destroyItem#0;class#13059:14095" expanded="false" />
             <element signature="method#updateLayoutTwo#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16351#16411#0" expanded="false" />
+            <element signature="e#16540#16600#0" expanded="false" />
+            <element signature="class#MyOnClickListener#0;class#MainActivity#0" expanded="false" />
             <element signature="class#MyTTSOnInitListener#0;class#MainActivity#0" expanded="false" />
             <element signature="method#speakParkVoice#0;class#MainActivity#0" expanded="false" />
             <element signature="method#updateRecordInfo#0;class#MainActivity#0" expanded="false" />

@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
-    density="mdpi"
+    api-level="25"
+    density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="30560973567616"
+    timestamp="43072067730209"
     token="-2376076634524500190"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="3344" />
+        duration="116" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1292" />
+        duration="17" />
     <task
         name="verifier"
-        duration="122" />
+        duration="5" />
 
     <artifact
-        location="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\outputs\apk\AutoUI-debug.apk"
-        type="MAIN" />
+        location="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="30560973567616"
+        timestamp="42952821001958"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\outputs\apk\AutoUI-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="43072067730209"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

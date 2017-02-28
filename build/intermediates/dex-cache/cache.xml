@@ -3,33 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\libs\BaiduLBS_Android.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e20febe85d354fce8aa27e87cedef6d22707b2eb">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_59009a5e70a698603de3fb68d21d6aa50d1f6a0b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoRecord\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoRecord\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_62d919e6bb0ef08e99b67b8b9be05fad2d6b75e2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_2752218ad9f1c1492869adeb98065eddecec2cb4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -48,39 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_2f5c0c58b3728cfa4705f2645f4988eb4a0239ac\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="f8efd0096475e0daf054267b61544e10dc776503">
         <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_c10d5925ef63d40a3231bc36a587490aef0eeb77\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\libs\nineoldandroids.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids_5f1fee641da45ba729fb9892ae44b8f0c8b39e4f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_8495c8aa32f36496c4fc79efa781aba446239c67\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,29 +39,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4681f8c84d2b2bf971639356d55517ed5002108f">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5fe296a145e12dde077fad2c753177a2cdf017e7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoRecord\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="806499b1e6f59e4f496cc8d91c5d3671e57b8373">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoRecord\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_03caee058daab110abe3624b99786de2b5b9becf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d0d71e6f685253da0b973fcfe5c7ea32ad8129fe">
+        sha1="80114f0da273271b0ffe015ac9dd8dcc7b6eef2c">
         <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f5f368672346f3ec4b0a470a6760feb778aaa6ae\classes.dex" />
     </item>
     <item
@@ -133,26 +61,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ad50028edfa7e8a1c06e1ac46acd712bac36f422">
+        sha1="2541f6a0d8475c2796003896f10cd1addaf5df4e">
         <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1f31c95c61e2e99ef5af1ac597c46122500b0c39\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\libs\Sunflower.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4bd4220e2037791a3f072df301eb37fa8eb8c8da">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\build\intermediates\transforms\dex\debug\folders\1000\2\Sunflower_76f354d27b455f83e9812f0ac66c7cb726e3c5d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_b68c8595ad7161256bdb15b0625f656ffd9caa8d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,12 +84,93 @@
     </item>
     <item
         is-multidex="true"
-        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="91dcc7fb9d6199b50eef803ff9b1b0111cdb11ac">
-        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cd42df7690671f6059a8bf877125994ca83e3f0e\classes.dex" />
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_2752218ad9f1c1492869adeb98065eddecec2cb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e20febe85d354fce8aa27e87cedef6d22707b2eb">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_59009a5e70a698603de3fb68d21d6aa50d1f6a0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoRecord\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoRecord\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_62d919e6bb0ef08e99b67b8b9be05fad2d6b75e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_2f5c0c58b3728cfa4705f2645f4988eb4a0239ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\libs\nineoldandroids.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids_5f1fee641da45ba729fb9892ae44b8f0c8b39e4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_8495c8aa32f36496c4fc79efa781aba446239c67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4681f8c84d2b2bf971639356d55517ed5002108f">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5fe296a145e12dde077fad2c753177a2cdf017e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoRecord\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="806499b1e6f59e4f496cc8d91c5d3671e57b8373">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoRecord\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_03caee058daab110abe3624b99786de2b5b9becf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\libs\Sunflower.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4bd4220e2037791a3f072df301eb37fa8eb8c8da">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\BaiduNavi\build\intermediates\transforms\dex\debug\folders\1000\2\Sunflower_76f354d27b455f83e9812f0ac66c7cb726e3c5d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_b68c8595ad7161256bdb15b0625f656ffd9caa8d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -189,6 +180,15 @@
         revision="25.0.2"
         sha1="f8efd0096475e0daf054267b61544e10dc776503">
         <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoUI\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_c2766cfccbfe7cb797f5817ee2b81db10da2d099\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="91dcc7fb9d6199b50eef803ff9b1b0111cdb11ac">
+        <dex dex="F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoSetting\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cd42df7690671f6059a8bf877125994ca83e3f0e\classes.dex" />
     </item>
 
 </items>

@@ -36,12 +36,12 @@
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\record_start_normal_tq_6.png"
     },
     {
-        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\phone_sl_6.png",
-        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\phone_sl_6.png"
-    },
-    {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ximalaya_tq_6.png",
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\ximalaya_tq_6.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\phone_sl_6.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\phone_sl_6.png"
     },
     {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\service_sl_9.png",
@@ -128,12 +128,12 @@
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\weme_7.png"
     },
     {
-        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\filemanager_sl_9.png",
-        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\filemanager_sl_9.png"
-    },
-    {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record_stop_normal_tq_6.png",
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\record_stop_normal_tq_6.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\filemanager_sl_9.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\filemanager_sl_9.png"
     },
     {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\fmtransmit_7.png",
@@ -264,12 +264,12 @@
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\fmtransmit_stop_normal_tq_6.png"
     },
     {
-        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\navigation_sl_9.png",
-        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\navigation_sl_9.png"
-    },
-    {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\navigation_7.png",
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\navigation_7.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\navigation_sl_9.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\navigation_sl_9.png"
     },
     {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\weather_tq_6.png",
@@ -348,12 +348,12 @@
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\fmtransmit_play_pressed_tq_6.png"
     },
     {
-        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sl_9_gpstest.png",
-        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\sl_9_gpstest.png"
-    },
-    {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\weather_fog_tq_6.png",
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\weather_fog_tq_6.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sl_9_gpstest.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\sl_9_gpstest.png"
     },
     {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\edog_on_tq_6.png",
@@ -504,12 +504,12 @@
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\edog_jj_9.png"
     },
     {
-        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\phone_jj_9.png",
-        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\phone_jj_9.png"
-    },
-    {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sl_9_didi.png",
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\sl_9_didi.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\phone_jj_9.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-hdpi\\phone_jj_9.png"
     },
     {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\filemanager_7.png",

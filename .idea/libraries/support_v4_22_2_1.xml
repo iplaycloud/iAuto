@@ -6,6 +6,7 @@
       <root url="jar://$PROJECT_DIR$/AutoRecord/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/AutoSetting/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/AutoUI/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/AutoWeather/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/AutoFM/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/res" />

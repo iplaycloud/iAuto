@@ -1,5 +1,9 @@
 [
     {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sl_6_music_online.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-xhdpi\\sl_6_music_online.png"
+    },
+    {
         "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sl_6_file_manager.png",
         "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable-xhdpi\\sl_6_file_manager.png"
     },

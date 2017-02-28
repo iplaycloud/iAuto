@@ -52,15 +52,18 @@
 
     <RelativeLayout
         android:id="@+id/layoutBottomSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
         >
 
         <!-- 天气 -->
         <RelativeLayout
             android:id="@+id/layoutWeather"
-            android:layout_width="500dp"
-            android:layout_height="300dp" >
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
 
             <ImageView
                 android:layout_width="match_parent"
@@ -80,11 +83,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="65dp"
                     android:drawableLeft="@drawable/weather_location_tq_6"
                     android:text="@string/weather_not_record"
                     android:textColor="#ffffff"
-                    android:textSize="36sp" />
+                    android:textSize="28sp" />
 
                 <ImageView
                     android:id="@+id/imageWeatherInfo"
@@ -92,7 +95,7 @@
                     android:layout_height="@dimen/weather_info_icon_length"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginLeft="65dp"
                     android:contentDescription="@null"
                     android:src="@drawable/weather_sun_tq_6" />
 
@@ -102,10 +105,10 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginBottom="30dp"
+                    android:layout_marginBottom="65dp"
                     android:text="@string/weather_no_temp"
                     android:textColor="#ffffff"
-                    android:textSize="32sp" />
+                    android:textSize="26sp" />
 
                 <TextClock
                     android:id="@+id/textDate"
@@ -114,11 +117,11 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginRight="30dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="65dp"
                     android:format12Hour="yy/MM/dd"
                     android:format24Hour="yy/MM/dd"
                     android:textColor="#ffffff"
-                    android:textSize="36sp" />
+                    android:textSize="28sp" />
 
                 <TextClock
                     android:id="@+id/textClock"
@@ -126,12 +129,12 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
-                    android:layout_marginBottom="30dp"
+                    android:layout_marginBottom="65dp"
                     android:layout_marginRight="30dp"
                     android:format12Hour="HH:mm"
                     android:format24Hour="HH:mm"
                     android:textColor="#ffffff"
-                    android:textSize="50sp" />
+                    android:textSize="32sp" />
 
                 <TextView
                     android:id="@+id/textWeatherInfo"

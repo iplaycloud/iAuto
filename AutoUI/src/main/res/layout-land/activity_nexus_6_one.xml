@@ -84,6 +84,7 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentBottom="true"
                 android:contentDescription="@null"
+                android:background="?android:attr/selectableItemBackground"
                 android:src="@drawable/sl_6_navigation" />
 
             <RelativeLayout
@@ -125,7 +126,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
-            android:layout_weight="1">s
+            android:layout_weight="1">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -151,6 +152,7 @@
             >
 
             <ImageView
+                android:id="@+id/iamgeEDog"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentBottom="true"
@@ -178,19 +180,18 @@
                 android:id="@+id/layoutFileManager"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:gravity="bottom"
                 android:layout_weight="1">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
+                    android:id="@+id/imageFileManager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:contentDescription="@null"
-                    android:src="@drawable/sl_6_file_manager" />
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/sl_6_file_manager"
+                    android:background="?android:attr/selectableItemBackground"/>
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="?android:attr/selectableItemBackground" />
             </RelativeLayout>
 
             <!-- 音乐 -->
@@ -201,16 +202,13 @@
                 android:layout_weight="1">
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:contentDescription="@null"
-                    android:src="@drawable/sl_6_music_online" />
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/sl_6_music_online"
+                    android:background="?android:attr/selectableItemBackground"/>
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="?android:attr/selectableItemBackground" >
-                </RelativeLayout>
             </RelativeLayout>
         </LinearLayout>
 

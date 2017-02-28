@@ -61,6 +61,7 @@ import android.provider.Settings;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
 import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -528,6 +529,9 @@ public class MainActivity extends Activity {
 		//5.文件管理
 		RelativeLayout layoutFileManager = (RelativeLayout) findViewById(R.id.layoutFileManager);
 		layoutFileManager.setOnClickListener(myOnClickListener);
+
+		ImageView imageEDog = (ImageView) findViewById(R.id.iamgeEDog);
+		ImageView imageFileManager = (ImageView) findViewById(R.id.imageFileManager);
 
 		//6.音乐
 		RelativeLayout layoutMusic = (RelativeLayout) findViewById(R.id.layoutMusic);
