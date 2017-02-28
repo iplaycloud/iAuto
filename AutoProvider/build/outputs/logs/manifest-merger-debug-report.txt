@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:1:1-21:12
+	package
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:2:5-36
+		INJECTED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml
+		INJECTED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml
+		INJECTED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml
+		INJECTED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:22.2.1] F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml
+		INJECTED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:7:9-35
+		INJECTED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml
+		INJECTED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml
+application
+ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:10:5-19:19
+MERGED from [com.android.support:support-v4:22.2.1] F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:14:9-40
+provider#com.xctx.autoprovider.AutoProvider
+ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:15:9-18:39
+	android:authorities
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:17:13-65
+	android:exported
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from F:\OneDrive\AndroidStudioProjects_pri\iAuto\AutoProvider\src\main\AndroidManifest.xml:16:13-62

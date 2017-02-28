@@ -481,8 +481,8 @@ public class OpenUtil {
 					componentWeather = new ComponentName("com.xctx.weather",
 							"com.xctx.weather.ui.MainActivity");
 					Intent intentWeather = new Intent();
-					intentWeather.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
-							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
+					intentWeather.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//							| Intent.FLAG_ACTIVITY_TASK_ON_HOME);
 					intentWeather.setComponent(componentWeather);
 					activity.startActivity(intentWeather);
 					break;

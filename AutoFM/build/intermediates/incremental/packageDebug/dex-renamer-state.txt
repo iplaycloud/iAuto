@@ -1,7 +1,0 @@
-#Tue Feb 28 10:21:37 CST 2017
-base.0=F\:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_89ef5c0b6f02e7f1316a6c3fbb0c54371101af91
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=F\:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c0fa85cd781f83a361aaced3798c464efa2a3ee9\\classes.dex
-base.1=F\:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c0fa85cd781f83a361aaced3798c464efa2a3ee9
-file.0=F\:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoFM\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_89ef5c0b6f02e7f1316a6c3fbb0c54371101af91\\classes.dex

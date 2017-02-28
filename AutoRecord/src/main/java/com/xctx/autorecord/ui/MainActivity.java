@@ -49,6 +49,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -65,6 +66,7 @@ public class MainActivity extends Activity {
 
 	public static final int MEDIA_TYPE_IMAGE = 1;
 	public static final int MEDIA_TYPE_VIDEO = 2;
+	private static final String TAG = "AutoRecord";
 
 	private Context context;
 	private SharedPreferences sharedPreferences;
@@ -197,6 +199,8 @@ public class MainActivity extends Activity {
 			setContentView(R.layout.activity_main);
 		}
 
+		Log.i(TAG, "1");
+
 		context = getApplicationContext();
 		powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE); // 获取屏幕状态
 		fullWakeLock = powerManager.newWakeLock(
@@ -210,13 +214,19 @@ public class MainActivity extends Activity {
 		// frontVideoDb = new FrontVideoDbHelper(context); // 视频数据库
 		// backVideoDb = new BackVideoDbHelper(context);
 
+		Log.i(TAG, "2");
+
 		/** 初始化布局 */
 		initialLayout();
+
+		Log.i(TAG, "3");
 
 		getContentResolver()
 				.registerContentObserver(
 						Uri.parse("content://com.xctx.provider.AutoProvider/state/name/"),
 						true, new AutoContentObserver(new Handler()));
+
+		Log.i(TAG, "4");
 
 		/** 创建前后录像存储卡目录 */
 		StorageUtil.createRecordDirectory();
@@ -225,6 +235,8 @@ public class MainActivity extends Activity {
 
 		setupFrontViews();
 		setupBackViews();
+
+		Log.i(TAG, "5");
 
 		// 首次启动是否需要自动录像
 //		if (1 == SettingUtil.getAccStatus()) {
@@ -246,6 +258,8 @@ public class MainActivity extends Activity {
 		// 碰撞侦测服务
 		Intent intentSensor = new Intent(this, SensorWatchService.class);
 		startService(intentSensor);
+
+		Log.i(TAG, "6");
 
 		/** 后台线程，用以监测是否需要录制碰撞加锁视频(停车侦测) */
 //		new Thread(new BackgroundThread()).start(); // 后台线程

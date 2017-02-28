@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTwo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+
+    <!-- 云服务 -->
+    <RelativeLayout
+            android:id="@+id/layoutService"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+        >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:src="@drawable/service_sl_9" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground" >
+            </RelativeLayout>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutDidi"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:src="@drawable/sl_9_didi" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutBottomSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <!-- 天气 -->
+        <RelativeLayout
+            android:id="@+id/layoutWeather"
+            android:layout_width="500dp"
+            android:layout_height="300dp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:src="@drawable/weather_sl_6" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="?android:attr/selectableItemBackground" >
+
+                <TextView
+                    android:id="@+id/textWeatherCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:drawableLeft="@drawable/weather_location_tq_6"
+                    android:text="@string/weather_not_record"
+                    android:textColor="#ffffff"
+                    android:textSize="36sp" />
+
+                <ImageView
+                    android:id="@+id/imageWeatherInfo"
+                    android:layout_width="@dimen/weather_info_icon_length"
+                    android:layout_height="@dimen/weather_info_icon_length"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="60dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/weather_sun_tq_6" />
+
+                <TextView
+                    android:id="@+id/textWeatherTmpRange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/weather_no_temp"
+                    android:textColor="#ffffff"
+                    android:textSize="32sp" />
+
+                <TextClock
+                    android:id="@+id/textDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="30dp"
+                    android:format12Hour="yy/MM/dd"
+                    android:format24Hour="yy/MM/dd"
+                    android:textColor="#ffffff"
+                    android:textSize="36sp" />
+
+                <TextClock
+                    android:id="@+id/textClock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginRight="30dp"
+                    android:format12Hour="HH:mm"
+                    android:format24Hour="HH:mm"
+                    android:textColor="#ffffff"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:id="@+id/textWeatherInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/textWeatherTmpRange"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/weather_info_margin_span"
+                    android:layout_marginRight="@dimen/weather_info_margin_right"
+                    android:text="@string/weather_unknown"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/weather_info_text_size"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

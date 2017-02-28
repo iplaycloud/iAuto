@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_slide_menu_wheel_bg.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\drawable\\shape_slide_menu_wheel_bg.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\drawable\\ok_button.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\drawable\\ok_button.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_weather_air_good.png",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\drawable\\icon_weather_air_good.png"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_reside_menu_edit.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\drawable\\icon_reside_menu_edit.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_button.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\drawable\\cancel_button.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_reside_menu.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\drawable\\icon_reside_menu.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_reside_menu_confirm.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\drawable\\icon_reside_menu_confirm.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\drawable\\ui_weather_refresh.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\drawable\\ui_weather_refresh.xml"
+    }
+]

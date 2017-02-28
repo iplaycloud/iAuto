@@ -100,7 +100,7 @@ public class ProviderUtil {
 		String dbValue = defaultValue;
 		try {
 			Uri uri = Uri
-					.parse("content://com.tchip.provider.AutoProvider/state/name/"
+					.parse("content://com.xctx.provider.AutoProvider/state/name/"
 							+ name);
 			ContentResolver contentResolver = context.getContentResolver();
 			Cursor cursor = contentResolver.query(uri, null, null, null, null);
@@ -124,7 +124,7 @@ public class ProviderUtil {
 		MyLog.v("ProviderUtil.setValue.Name:" + name + ",value:" + value);
 		try {
 			Uri uriUpdate = Uri
-					.parse("content://com.tchip.provider.AutoProvider/state/name/"
+					.parse("content://com.xctx.provider.AutoProvider/state/name/"
 							+ name);
 			ContentResolver contentResolverUpdate = context
 					.getContentResolver();
@@ -134,7 +134,7 @@ public class ProviderUtil {
 					"name=?", new String[] { name }); // Update
 			if (count == 0) {
 				Uri uriInsert = Uri
-						.parse("content://com.tchip.provider.AutoProvider/state/");
+						.parse("content://com.xctx.provider.AutoProvider/state/");
 				ContentResolver contentResolverInsert = context
 						.getContentResolver();
 				ContentValues valuesInsert = new ContentValues();

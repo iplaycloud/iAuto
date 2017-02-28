@@ -1,0 +1,2090 @@
+[
+    {
+        "outputFile": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 15,
+                    "endColumn": 19,
+                    "endOffset": 472
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2339,
+                        "endLine": 74,
+                        "endColumn": 19,
+                        "endOffset": 2769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 477,
+                    "endColumn": 44,
+                    "endOffset": 517
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\attrs.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1779,
+                        "endColumn": 45,
+                        "endOffset": 1820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 522,
+                    "endColumn": 47,
+                    "endOffset": 565
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\attrs.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1826,
+                        "endColumn": 48,
+                        "endOffset": 1870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 570,
+                    "endColumn": 49,
+                    "endOffset": 615
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\attrs.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1876,
+                        "endColumn": 50,
+                        "endOffset": 1922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 620,
+                    "endColumn": 49,
+                    "endOffset": 665
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\attrs.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1928,
+                        "endColumn": 50,
+                        "endOffset": 1974
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 670,
+                    "endColumn": 62,
+                    "endOffset": 728
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 693,
+                        "endColumn": 62,
+                        "endOffset": 751
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 733,
+                    "endColumn": 59,
+                    "endOffset": 788
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1040,
+                        "endColumn": 59,
+                        "endOffset": 1095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 793,
+                    "endColumn": 60,
+                    "endOffset": 849
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1602,
+                        "endColumn": 60,
+                        "endOffset": 1658
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 854,
+                    "endColumn": 66,
+                    "endOffset": 916
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2363,
+                        "endColumn": 66,
+                        "endOffset": 2425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 921,
+                    "endColumn": 62,
+                    "endOffset": 979
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 2711,
+                        "endColumn": 62,
+                        "endOffset": 2769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 984,
+                    "endColumn": 56,
+                    "endOffset": 1036
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 800,
+                        "endColumn": 56,
+                        "endOffset": 852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1041,
+                    "endColumn": 57,
+                    "endOffset": 1094
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 858,
+                        "endColumn": 57,
+                        "endOffset": 911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1099,
+                    "endColumn": 72,
+                    "endOffset": 1167
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1048,
+                        "endColumn": 72,
+                        "endOffset": 1116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1172,
+                    "endColumn": 63,
+                    "endOffset": 1231
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 917,
+                        "endColumn": 63,
+                        "endOffset": 976
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1236,
+                    "endColumn": 64,
+                    "endOffset": 1296
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 982,
+                        "endColumn": 64,
+                        "endOffset": 1042
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1301,
+                    "endColumn": 71,
+                    "endOffset": 1368
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1122,
+                        "endColumn": 71,
+                        "endOffset": 1189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1373,
+                    "endColumn": 72,
+                    "endOffset": 1441
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1195,
+                        "endColumn": 72,
+                        "endOffset": 1263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1446,
+                    "endColumn": 69,
+                    "endOffset": 1511
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 759,
+                        "endColumn": 69,
+                        "endOffset": 824
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1516,
+                    "endColumn": 69,
+                    "endOffset": 1581
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 830,
+                        "endColumn": 69,
+                        "endOffset": 895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1586,
+                    "endColumn": 73,
+                    "endOffset": 1655
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1103,
+                        "endColumn": 73,
+                        "endOffset": 1172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1660,
+                    "endColumn": 73,
+                    "endOffset": 1729
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1448,
+                        "endColumn": 73,
+                        "endOffset": 1517
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1734,
+                    "endColumn": 75,
+                    "endOffset": 1805
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1523,
+                        "endColumn": 75,
+                        "endOffset": 1594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1810,
+                    "endColumn": 72,
+                    "endOffset": 1878
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1736,
+                        "endColumn": 72,
+                        "endOffset": 1804
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1883,
+                    "endColumn": 74,
+                    "endOffset": 1953
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2285,
+                        "endColumn": 74,
+                        "endOffset": 2355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 1958,
+                    "endColumn": 70,
+                    "endOffset": 2024
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 2433,
+                        "endColumn": 70,
+                        "endOffset": 2499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2029,
+                    "endColumn": 78,
+                    "endOffset": 2103
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 2928,
+                        "endColumn": 78,
+                        "endOffset": 3002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2108,
+                    "endColumn": 54,
+                    "endOffset": 2158
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 711,
+                        "endColumn": 54,
+                        "endOffset": 761
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2163,
+                    "endColumn": 55,
+                    "endOffset": 2214
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 654,
+                        "endColumn": 55,
+                        "endOffset": 705
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2219,
+                    "endColumn": 53,
+                    "endOffset": 2268
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 599,
+                        "endColumn": 53,
+                        "endOffset": 648
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2273,
+                    "endColumn": 55,
+                    "endOffset": 2324
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 393,
+                        "endColumn": 55,
+                        "endOffset": 444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2329,
+                    "endColumn": 45,
+                    "endOffset": 2370
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endColumn": 45,
+                        "endOffset": 566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2375,
+                    "endColumn": 54,
+                    "endOffset": 2425
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1334,
+                        "endColumn": 54,
+                        "endOffset": 1384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2430,
+                    "endColumn": 63,
+                    "endOffset": 2489
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1269,
+                        "endColumn": 63,
+                        "endOffset": 1328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2494,
+                    "endColumn": 46,
+                    "endOffset": 2536
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 46,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2541,
+                    "endColumn": 55,
+                    "endOffset": 2592
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 55,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2597,
+                    "endColumn": 58,
+                    "endOffset": 2651
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 251,
+                        "endColumn": 58,
+                        "endOffset": 305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2656,
+                    "endColumn": 61,
+                    "endOffset": 2713
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 311,
+                        "endColumn": 61,
+                        "endOffset": 368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2718,
+                    "endColumn": 49,
+                    "endOffset": 2763
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 181,
+                        "endColumn": 49,
+                        "endOffset": 226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 2768,
+                    "endColumn": 55,
+                    "endOffset": 2819
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 468,
+                        "endColumn": 55,
+                        "endOffset": 519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 5927,
+                    "endColumn": 61,
+                    "endOffset": 5984
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 975,
+                        "endColumn": 61,
+                        "endOffset": 1032
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 5989,
+                    "endColumn": 67,
+                    "endOffset": 6052
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1180,
+                        "endColumn": 67,
+                        "endOffset": 1243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 6057,
+                    "endColumn": 62,
+                    "endOffset": 6115
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1315,
+                        "endColumn": 62,
+                        "endOffset": 1373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 6120,
+                    "endColumn": 64,
+                    "endOffset": 6180
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1249,
+                        "endColumn": 64,
+                        "endOffset": 1309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 6185,
+                    "endColumn": 65,
+                    "endOffset": 6246
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1379,
+                        "endColumn": 65,
+                        "endOffset": 1440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 6251,
+                    "endColumn": 66,
+                    "endOffset": 6313
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1666,
+                        "endColumn": 66,
+                        "endOffset": 1728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 6318,
+                    "endColumn": 77,
+                    "endOffset": 6391
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1970,
+                        "endColumn": 77,
+                        "endOffset": 2043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 6396,
+                    "endColumn": 89,
+                    "endOffset": 6481
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2049,
+                        "endColumn": 89,
+                        "endOffset": 2134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 6486,
+                    "endColumn": 72,
+                    "endOffset": 6554
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1812,
+                        "endColumn": 72,
+                        "endOffset": 1880
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 6559,
+                    "endColumn": 68,
+                    "endOffset": 6623
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2140,
+                        "endColumn": 68,
+                        "endOffset": 2204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 6628,
+                    "endColumn": 64,
+                    "endOffset": 6688
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2507,
+                        "endColumn": 64,
+                        "endOffset": 2567
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 6693,
+                    "endColumn": 67,
+                    "endOffset": 6756
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2573,
+                        "endColumn": 67,
+                        "endOffset": 2636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 6761,
+                    "endColumn": 65,
+                    "endOffset": 6822
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2642,
+                        "endColumn": 65,
+                        "endOffset": 2703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 6827,
+                    "endColumn": 68,
+                    "endOffset": 6891
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 68,
+                        "endOffset": 967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 6896,
+                    "endColumn": 78,
+                    "endOffset": 6970
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1888,
+                        "endColumn": 78,
+                        "endOffset": 1962
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 6975,
+                    "endColumn": 69,
+                    "endOffset": 7040
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2212,
+                        "endColumn": 69,
+                        "endOffset": 2277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 7045,
+                    "endColumn": 72,
+                    "endOffset": 7113
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2777,
+                        "endColumn": 72,
+                        "endOffset": 2845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 7118,
+                    "endColumn": 73,
+                    "endOffset": 7187
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\defaults.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 2851,
+                        "endColumn": 73,
+                        "endOffset": 2920
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 7192,
+                    "endColumn": 63,
+                    "endOffset": 7251
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2114,
+                        "endColumn": 63,
+                        "endOffset": 2173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 7256,
+                    "endColumn": 43,
+                    "endOffset": 7295
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 43,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 7300,
+                    "endColumn": 51,
+                    "endOffset": 7347
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 2910,
+                        "endColumn": 51,
+                        "endOffset": 2957
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 7352,
+                    "endColumn": 52,
+                    "endOffset": 7400
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 2856,
+                        "endColumn": 52,
+                        "endOffset": 2904
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 7405,
+                    "endColumn": 50,
+                    "endOffset": 7451
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 2804,
+                        "endColumn": 50,
+                        "endOffset": 2850
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 7456,
+                    "endColumn": 38,
+                    "endOffset": 7490
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2053,
+                        "endColumn": 38,
+                        "endOffset": 2087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 7495,
+                    "endColumn": 51,
+                    "endOffset": 7542
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1952,
+                        "endColumn": 51,
+                        "endOffset": 1999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 7547,
+                    "endColumn": 45,
+                    "endOffset": 7588
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 1905,
+                        "endColumn": 45,
+                        "endOffset": 1946
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 7593,
+                    "endColumn": 56,
+                    "endOffset": 7645
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1847,
+                        "endColumn": 56,
+                        "endOffset": 1899
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 7650,
+                    "endColumn": 46,
+                    "endOffset": 7692
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2005,
+                        "endColumn": 46,
+                        "endOffset": 2047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 7697,
+                    "endColumn": 48,
+                    "endOffset": 7741
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 48,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 7746,
+                    "endColumn": 47,
+                    "endOffset": 7789
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 47,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 7794,
+                    "endColumn": 71,
+                    "endOffset": 7861
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 71,
+                        "endOffset": 336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 7866,
+                    "endColumn": 43,
+                    "endOffset": 7905
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 125,
+                        "endColumn": 43,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 7910,
+                    "endColumn": 49,
+                    "endOffset": 7955
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2262,
+                        "endColumn": 49,
+                        "endOffset": 2307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 7960,
+                    "endColumn": 53,
+                    "endOffset": 8009
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 2969,
+                        "endColumn": 53,
+                        "endOffset": 3018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 8014,
+                    "endColumn": 52,
+                    "endOffset": 8062
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1549,
+                        "endColumn": 52,
+                        "endOffset": 1597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 8067,
+                    "endColumn": 51,
+                    "endOffset": 8114
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1603,
+                        "endColumn": 51,
+                        "endOffset": 1650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 8119,
+                    "endColumn": 53,
+                    "endOffset": 8168
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1440,
+                        "endColumn": 53,
+                        "endOffset": 1489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 8173,
+                    "endColumn": 52,
+                    "endOffset": 8221
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1495,
+                        "endColumn": 52,
+                        "endOffset": 1543
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 8226,
+                    "endColumn": 45,
+                    "endOffset": 8267
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2198,
+                        "endColumn": 45,
+                        "endOffset": 2239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 8272,
+                    "endColumn": 49,
+                    "endOffset": 8317
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1280,
+                        "endColumn": 49,
+                        "endOffset": 1325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 8322,
+                    "endColumn": 49,
+                    "endOffset": 8367
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1047,
+                        "endColumn": 49,
+                        "endOffset": 1092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 8372,
+                    "endColumn": 48,
+                    "endOffset": 8416
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 552,
+                        "endColumn": 48,
+                        "endOffset": 596
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 8421,
+                    "endColumn": 50,
+                    "endOffset": 8467
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 798,
+                        "endColumn": 50,
+                        "endOffset": 844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 8472,
+                    "endColumn": 42,
+                    "endOffset": 8510
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 655,
+                        "endColumn": 42,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 8515,
+                    "endColumn": 51,
+                    "endOffset": 8562
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endColumn": 51,
+                        "endOffset": 897
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 8567,
+                    "endColumn": 50,
+                    "endOffset": 8613
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 949,
+                        "endColumn": 50,
+                        "endOffset": 995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 8618,
+                    "endColumn": 44,
+                    "endOffset": 8658
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 44,
+                        "endOffset": 943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 8663,
+                    "endColumn": 48,
+                    "endOffset": 8707
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 748,
+                        "endColumn": 48,
+                        "endOffset": 792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 8712,
+                    "endColumn": 44,
+                    "endOffset": 8752
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 506,
+                        "endColumn": 44,
+                        "endOffset": 546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 8757,
+                    "endColumn": 51,
+                    "endOffset": 8804
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 602,
+                        "endColumn": 51,
+                        "endOffset": 649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 8809,
+                    "endColumn": 47,
+                    "endOffset": 8852
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 411,
+                        "endColumn": 47,
+                        "endOffset": 454
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 8857,
+                    "endColumn": 44,
+                    "endOffset": 8897
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1001,
+                        "endColumn": 44,
+                        "endOffset": 1041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 8902,
+                    "endColumn": 44,
+                    "endOffset": 8942
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1331,
+                        "endColumn": 44,
+                        "endOffset": 1371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 8947,
+                    "endColumn": 45,
+                    "endOffset": 8988
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 364,
+                        "endColumn": 45,
+                        "endOffset": 405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 8993,
+                    "endColumn": 44,
+                    "endOffset": 9033
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1098,
+                        "endColumn": 44,
+                        "endOffset": 1138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 9038,
+                    "endColumn": 42,
+                    "endOffset": 9076
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1377,
+                        "endColumn": 42,
+                        "endOffset": 1415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 9081,
+                    "endColumn": 44,
+                    "endOffset": 9121
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 460,
+                        "endColumn": 44,
+                        "endOffset": 500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 9126,
+                    "endColumn": 45,
+                    "endOffset": 9167
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1144,
+                        "endColumn": 45,
+                        "endOffset": 1185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 9172,
+                    "endColumn": 43,
+                    "endOffset": 9211
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1191,
+                        "endColumn": 43,
+                        "endOffset": 1230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 9216,
+                    "endColumn": 47,
+                    "endOffset": 9259
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 699,
+                        "endColumn": 47,
+                        "endOffset": 742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 9264,
+                    "endColumn": 42,
+                    "endOffset": 9302
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1236,
+                        "endColumn": 42,
+                        "endOffset": 1274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 9307,
+                    "endColumn": 49,
+                    "endOffset": 9352
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1775,
+                        "endColumn": 49,
+                        "endOffset": 1820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 9357,
+                    "endColumn": 50,
+                    "endOffset": 9403
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1675,
+                        "endColumn": 50,
+                        "endOffset": 1721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 9408,
+                    "endColumn": 46,
+                    "endOffset": 9450
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1727,
+                        "endColumn": 46,
+                        "endOffset": 1769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 9455,
+                    "endLine": 152,
+                    "endColumn": 12,
+                    "endOffset": 9743
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 9748,
+                    "endLine": 156,
+                    "endColumn": 12,
+                    "endOffset": 9928
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1442,
+                        "endLine": 41,
+                        "endColumn": 12,
+                        "endOffset": 1625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 9933,
+                    "endLine": 160,
+                    "endColumn": 12,
+                    "endOffset": 10181
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 531,
+                        "endLine": 22,
+                        "endColumn": 12,
+                        "endOffset": 782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 10186,
+                    "endColumn": 26,
+                    "endOffset": 10208
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 790,
+                        "endColumn": 33,
+                        "endOffset": 819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 10213,
+                    "endLine": 165,
+                    "endColumn": 12,
+                    "endOffset": 10398
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1633,
+                        "endLine": 46,
+                        "endColumn": 12,
+                        "endOffset": 1821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 10403,
+                    "endLine": 176,
+                    "endColumn": 12,
+                    "endOffset": 11000
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 827,
+                        "endLine": 36,
+                        "endColumn": 12,
+                        "endOffset": 1434
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AutoFM" />
             <option value="$PROJECT_DIR$/AutoProvider" />
             <option value="$PROJECT_DIR$/AutoRecord" />
             <option value="$PROJECT_DIR$/AutoSetting" />

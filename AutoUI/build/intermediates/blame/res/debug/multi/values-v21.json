@@ -1,0 +1,91 @@
+[
+    {
+        "outputFile": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 206,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 917
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 421,
+                        "endLine": 30,
+                        "endColumn": 12,
+                        "endOffset": 1145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 922,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 1042
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1186,
+                        "endLine": 35,
+                        "endColumn": 12,
+                        "endOffset": 1308
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1047,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1376
+                },
+                "from": {
+                    "file": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1316,
+                        "endLine": 42,
+                        "endColumn": 12,
+                        "endOffset": 1650
+                    }
+                }
+            }
+        ]
+    }
+]

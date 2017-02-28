@@ -1,0 +1,7 @@
+#Tue Feb 28 17:36:20 CST 2017
+base.0=F\:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\BaiduNavi\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_247793f676e4b6be83c14dfd2ef1984637a9118e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=F\:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\BaiduNavi\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_37e9a3818826a70793d2705a3ce347d3be7b7335\\classes.dex
+base.1=F\:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\BaiduNavi\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_37e9a3818826a70793d2705a3ce347d3be7b7335
+file.0=F\:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\BaiduNavi\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_247793f676e4b6be83c14dfd2ef1984637a9118e\\classes.dex

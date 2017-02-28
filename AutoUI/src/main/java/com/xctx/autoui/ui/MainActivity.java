@@ -61,6 +61,7 @@ import android.provider.Settings;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
 import android.support.v4.view.PagerAdapter;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -73,6 +74,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
+
+	private static final String TAG = "AutoUI";
+
 	private Context context;
 
 	private View viewMain, viewVice, viewLast;
@@ -85,8 +89,15 @@ public class MainActivity extends Activity {
 	 */
 	private ImageView imageNavigation;
 
+	/*
+	* 天气
+	* */
 	private ImageView imageWeatherInfo;
 	private TextView textWeatherInfo, textWeatherTmpRange, textWeatherCity;
+
+	/*
+	* 行车记录
+	* */
 	private ImageView imageRecordState;
 	private TextView textRecStateFront, textRecStateBack;
 	/** 酷我API */
@@ -109,21 +120,7 @@ public class MainActivity extends Activity {
 
 	private enum UIConfig {
 		/** 公版 6.86 */
-		TQ6,
-		/** 善领 6.86 */
-		SL6,
-		/** 全球沃 6.86 */
-		WO6,
-		/** 公版7.84 */
-		TQ7,
-		/** 善领7.84 */
-		SL7,
-		/** 公版 9.76 */
-		TQ9,
-		/** 竟加 9.76 */
-		JJ9,
-		/** 善领 9.76 */
-		SL9
+		TQ6
 	}
 
 	/** UI配置 */
@@ -148,41 +145,21 @@ public class MainActivity extends Activity {
 		brand = Build.BRAND;
 		model = Build.MODEL;
 
+		Log.i(TAG, "1. setContentView activity_pager_9");
 		setContentView(R.layout.activity_pager_9);
 
 		LayoutInflater inflater = LayoutInflater.from(this);
 		MyLog.d("BRAND:" + brand + ",UIConfig:" + uiConfig);
 
-		if (UIConfig.SL9 == uiConfig) { // SL 9.76
-			viewMain = inflater.inflate(R.layout.activity_sl_9_one, null);
-			viewVice = inflater.inflate(R.layout.activity_sl_9_two, null);
-			// viewLast = inflater.inflate(R.layout.activity_sl_9_three, null);
-		} else if (UIConfig.JJ9 == uiConfig) { // JJ 9.76
-			viewMain = inflater.inflate(R.layout.activity_jj_9_one, null);
-			viewVice = inflater.inflate(R.layout.activity_jj_9_two, null);
-		} else if (UIConfig.SL7 == uiConfig) { // SL 7.84
-			viewMain = inflater.inflate(R.layout.activity_sl_7_one, null);
-			viewVice = inflater.inflate(R.layout.activity_sl_7_two, null);
-		} else if (UIConfig.TQ7 == uiConfig) { // TQ 7.84
-			viewMain = inflater.inflate(R.layout.activity_tq_7_one, null);
-			viewVice = inflater.inflate(R.layout.activity_tq_7_two, null);
-		} else if (UIConfig.SL6 == uiConfig) { // SL 6.86
-			viewMain = inflater.inflate(R.layout.activity_sl_6_one, null);
-			viewVice = inflater.inflate(R.layout.activity_sl_6_two, null);
-			// viewLast = inflater.inflate(R.layout.activity_sl_6_three, null);
-		} else if (UIConfig.WO6 == uiConfig) { // WO 6.86
-			viewMain = inflater.inflate(R.layout.activity_wo_6_one, null);
-			viewVice = inflater.inflate(R.layout.activity_wo_6_two, null);
-		} else { // TQ 6.86
-			viewMain = inflater.inflate(R.layout.activity_nexus_6_one, null);
-			viewVice = inflater.inflate(R.layout.activity_nexus_6_two, null);
-		}
+		Log.i(TAG, "2. inflate activity_nexus_6_one");
+		viewMain = inflater.inflate(R.layout.activity_nexus_6_one, null);
+		viewVice = inflater.inflate(R.layout.activity_nexus_6_two, null);
+		viewLast = inflater.inflate(R.layout.activity_nexus_6_three, null);
+
 		viewList = new ArrayList<View>();// 将要分页显示的View装入数组中
 		viewList.add(viewMain);
 		viewList.add(viewVice);
-		if (UIConfig.SL6 == uiConfig) {
-			// viewList.add(viewLast);
-		}
+		viewList.add(viewLast);
 
 		viewPager = (TransitionViewPager) findViewById(R.id.viewpager);
 		viewPager.setTransitionEffect(TransitionEffect.Standard);
@@ -192,6 +169,7 @@ public class MainActivity extends Activity {
 		circlePageIndicator = (CirclePageIndicator) findViewById(R.id.circlePageIndicator);
 		circlePageIndicator.setViewPager(viewPager);
 
+		Log.i(TAG, "3. new MainReceiver");
 		mainReceiver = new MainReceiver();
 		IntentFilter mainFilter = new IntentFilter();
 		mainFilter.addAction(Constant.Broadcast.ACC_ON);
@@ -209,9 +187,10 @@ public class MainActivity extends Activity {
 		mainFilter.addAction("com.tchip.OUT_NAVI_MODE");
 		registerReceiver(mainReceiver, mainFilter);
 
+		Log.i(TAG, "4. getContentResolver");
 		getContentResolver()
 				.registerContentObserver(
-						Uri.parse("content://com.tchip.provider.AutoProvider/state/name/"),
+						Uri.parse("content://com.xctx.provider.AutoProvider/state/name/"),
 						true, new AutoContentObserver(new Handler()));
 
 		// Reset Record State
@@ -222,7 +201,7 @@ public class MainActivity extends Activity {
 		//sendBroadcast(new Intent(Intent.ACTION_TIMEZONE_CHANGED).putExtra(
 		//		"time-zone", "Asia/Shanghai"));
 
-		initialNodeState();
+//		initialNodeState();
 
 		// 首次启动是否需要自动录像
 //		if (1 == SettingUtil.getAccStatus()) {
@@ -524,159 +503,50 @@ public class MainActivity extends Activity {
 	private int nowSelect = 0;
 
 	private void updateLayoutOne() {
-		// 行车记录
+
+		//1.行车记录
 		RelativeLayout layoutRecord = (RelativeLayout) findViewById(R.id.layoutRecord);
-		layoutRecord.setOnClickListener(new MyOnClickListener());
-		imageRecordState = (ImageView) findViewById(R.id.imageRecordState);
-		imageRecordState.setOnClickListener(new MyOnClickListener());
-		textRecStateFront = (TextView) findViewById(R.id.textRecStateFront);
-		textRecStateBack = (TextView) findViewById(R.id.textRecStateBack);
+		layoutRecord.setOnClickListener(myOnClickListener);
+//		imageRecordState = (ImageView) findViewById(R.id.imageRecordState);
+//		imageRecordState.setOnClickListener(new MyOnClickListener());
+//		textRecStateFront = (TextView) findViewById(R.id.textRecStateFront);
+//		textRecStateBack = (TextView) findViewById(R.id.textRecStateBack);
 		updateRecordInfo();
-		// 导航
+
+		//2.导航
 		RelativeLayout layoutNavigation = (RelativeLayout) findViewById(R.id.layoutNavigation);
-		layoutNavigation.setOnClickListener(new MyOnClickListener());
+		layoutNavigation.setOnClickListener(myOnClickListener);
 
-		if (UIConfig.SL9 == uiConfig) { // SL 9.76
-			imageNavigation = (ImageView) findViewById(R.id.imageNavigation);
+		//3.蓝牙
+		RelativeLayout layoutPhone = (RelativeLayout) findViewById(R.id.layoutPhone);
+		layoutPhone.setOnClickListener(myOnClickListener);
 
-			String nowMapSetting = Settings.System.getString(
-					getContentResolver(), "tchip_navi_app");
-			if (nowMapSetting != null && "gaode".equals(nowMapSetting)) {
-				imageNavigation
-						.setImageDrawable(getDrawable(R.drawable.navigation_sl_9));
-			} else {
-				imageNavigation
-						.setImageDrawable(getDrawable(R.drawable.navigation_sl_9_baidu));
-			}
-
-			layoutNavigation.setOnLongClickListener(new OnLongClickListener() {
-
-				@Override
-				public boolean onLongClick(View v) {
-					AlertDialog.Builder builder = new AlertDialog.Builder(
-							MainActivity.this);
-					builder.setIcon(R.drawable.ic_launcher);
-					builder.setTitle("选择默认地图");
-					final String[] maps = { "百度导航", "高德地图" };
-					String strMapSetting = Settings.System.getString(
-							getContentResolver(), "tchip_navi_app");
-					MyLog.v("strMapSetting.Before:" + strMapSetting);
-					if (strMapSetting != null && "gaode".equals(strMapSetting)) {
-						nowSelect = 1;
-					}
-					/**
-					 * 第一个参数指定我们要显示的一组下拉单选框的数据集合 第二个参数代表索引，指定默认哪一个单选框被勾选上
-					 * 第三个参数给每一个单选项绑定一个监听器
-					 */
-					builder.setSingleChoiceItems(maps, nowSelect,
-							new DialogInterface.OnClickListener() {
-								@Override
-								public void onClick(DialogInterface dialog,
-										int which) {
-									nowSelect = which;
-								}
-							});
-					builder.setPositiveButton("确定",
-							new DialogInterface.OnClickListener() {
-								@Override
-								public void onClick(DialogInterface dialog,
-										int which) {
-									MyLog.v("onClick.nowSelect:" + nowSelect);
-									switch (nowSelect) {
-									case 1: // 高德地图
-										Settings.System.putString(
-												getContentResolver(),
-												"tchip_navi_app", "gaode");
-										imageNavigation
-												.setImageDrawable(getDrawable(R.drawable.navigation_sl_9));
-										OpenUtil.killApp(context,
-												"com.baidu.navi");
-										break;
-
-									case 0:
-									default: // 百度地图
-										Settings.System.putString(
-												context.getContentResolver(),
-												"tchip_navi_app", "baidu");
-										imageNavigation
-												.setImageDrawable(getDrawable(R.drawable.navigation_sl_9_baidu));
-										OpenUtil.killApp(context,
-												"com.autonavi.amapautolite");
-										break;
-									}
-									sendBroadcast(new Intent(
-											"com.tchip.navi_app_changed"));
-								}
-							});
-					builder.setNegativeButton("取消",
-							new DialogInterface.OnClickListener() {
-								@Override
-								public void onClick(DialogInterface dialog,
-										int which) {
-
-								}
-							});
-					builder.show();
-					return true;
-				}
-			});
-		}
-
-		if (UIConfig.SL6 == uiConfig || UIConfig.SL9 == uiConfig
-				|| UIConfig.WO6 == uiConfig) {
-			// 蓝牙通话
-			RelativeLayout layoutPhone = (RelativeLayout) findViewById(R.id.layoutPhone);
-			layoutPhone.setOnClickListener(myOnClickListener);
-		} else if (UIConfig.JJ9 == uiConfig) {
-			// 网络电台-喜马拉雅
-			RelativeLayout layoutXimalaya = (RelativeLayout) findViewById(R.id.layoutXimalaya);
-			layoutXimalaya.setOnClickListener(myOnClickListener);
-		}
-		// 电子狗
+		//4.电子狗
 		RelativeLayout layoutEDog = (RelativeLayout) findViewById(R.id.layoutEDog);
 		layoutEDog.setOnClickListener(myOnClickListener);
-		if (UIConfig.TQ6 == uiConfig || UIConfig.TQ7 == uiConfig
-				|| UIConfig.SL7 == uiConfig || UIConfig.WO6 == uiConfig) {
-			// FM发射
-			RelativeLayout layoutFMTransmit = (RelativeLayout) findViewById(R.id.layoutFMTransmit);
-			layoutFMTransmit.setOnClickListener(myOnClickListener);
-		}
 
-		// 音乐
-		RelativeLayout layoutMusic = (RelativeLayout) findViewById(R.id.layoutMusic);
-		layoutMusic.setOnClickListener(myOnClickListener);
-		// 文件管理
+		//5.文件管理
 		RelativeLayout layoutFileManager = (RelativeLayout) findViewById(R.id.layoutFileManager);
 		layoutFileManager.setOnClickListener(myOnClickListener);
+
+		//6.音乐
+		RelativeLayout layoutMusic = (RelativeLayout) findViewById(R.id.layoutMusic);
+		layoutMusic.setOnClickListener(myOnClickListener);
 
 		isPagerOneShowed = true;
 		updateAllInfo();
 	}
 
 	private void updateLayoutTwo() {
-		// 微信助手
+		//1.微信助手
 		RelativeLayout layoutWechat = (RelativeLayout) findViewById(R.id.layoutWechat);
 		layoutWechat.setOnClickListener(myOnClickListener);
 
-		if (UIConfig.SL9 == uiConfig || UIConfig.SL6 == uiConfig
-				|| UIConfig.WO6 == uiConfig) {
-			// 网络电台-喜马拉雅
-			RelativeLayout layoutXimalaya = (RelativeLayout) findViewById(R.id.layoutXimalaya);
-			layoutXimalaya.setOnClickListener(myOnClickListener);
-			if (UIConfig.SL6 == uiConfig || UIConfig.SL9 == uiConfig) {
-				RelativeLayout layoutGpsTest = (RelativeLayout) findViewById(R.id.layoutGpsTest);
-				layoutGpsTest.setOnClickListener(myOnClickListener);
-			}
-		} else if (UIConfig.JJ9 == uiConfig) {
-			// 蓝牙通话
-			RelativeLayout layoutPhone = (RelativeLayout) findViewById(R.id.layoutPhone);
-			layoutPhone.setOnClickListener(myOnClickListener);
-		}
-
+		//2.喜马拉雅fm
 		RelativeLayout layoutXimalaya = (RelativeLayout) findViewById(R.id.layoutXimalaya);
 		layoutXimalaya.setOnClickListener(myOnClickListener);
 
-		// 翼卡
+		//3.翼卡
 		RelativeLayout layoutYiKa = (RelativeLayout) findViewById(R.id.layoutYiKa);
 		layoutYiKa.setOnClickListener(myOnClickListener);
 		if (UIConfig.TQ6 == uiConfig) { // TQ 6.86
@@ -691,40 +561,53 @@ public class MainActivity extends Activity {
 			// : R.drawable.weme_tq_6, null));
 		}
 
-		if (UIConfig.TQ6 == uiConfig || UIConfig.TQ7 == uiConfig
-				|| UIConfig.SL7 == uiConfig || UIConfig.WO6 == uiConfig) {
-			// 天气
-			RelativeLayout layoutWeather = (RelativeLayout) findViewById(R.id.layoutWeather);
-			layoutWeather.setOnClickListener(new MyOnClickListener());
-			imageWeatherInfo = (ImageView) findViewById(R.id.imageWeatherInfo);
-			textWeatherInfo = (TextView) findViewById(R.id.textWeatherInfo);
-			textWeatherTmpRange = (TextView) findViewById(R.id.textWeatherTmpRange);
-			textWeatherTmpRange.setTypeface(TypefaceUtil.get(this,
-					Constant.Path.FONT + "Font-Helvetica-Neue-LT-Pro.otf"));
-			textWeatherCity = (TextView) findViewById(R.id.textWeatherCity);
-		} else if (UIConfig.SL9 == uiConfig || UIConfig.TQ9 == uiConfig
-				|| UIConfig.JJ9 == uiConfig || UIConfig.SL6 == uiConfig) {
-			// FM发射
-			RelativeLayout layoutFMTransmit = (RelativeLayout) findViewById(R.id.layoutFMTransmit);
-			layoutFMTransmit.setOnClickListener(myOnClickListener);
-		}
+//		if (UIConfig.TQ6 == uiConfig || UIConfig.TQ7 == uiConfig
+//				|| UIConfig.SL7 == uiConfig || UIConfig.WO6 == uiConfig) {
+//			// 天气
+//			RelativeLayout layoutWeather = (RelativeLayout) findViewById(R.id.layoutWeather);
+//			layoutWeather.setOnClickListener(new MyOnClickListener());
+//			imageWeatherInfo = (ImageView) findViewById(R.id.imageWeatherInfo);
+//			textWeatherInfo = (TextView) findViewById(R.id.textWeatherInfo);
+//			textWeatherTmpRange = (TextView) findViewById(R.id.textWeatherTmpRange);
+//			textWeatherTmpRange.setTypeface(TypefaceUtil.get(this,
+//					Constant.Path.FONT + "Font-Helvetica-Neue-LT-Pro.otf"));
+//			textWeatherCity = (TextView) findViewById(R.id.textWeatherCity);
+//		} else if (UIConfig.SL9 == uiConfig || UIConfig.TQ9 == uiConfig
+//				|| UIConfig.JJ9 == uiConfig || UIConfig.SL6 == uiConfig) {
+//			// FM发射
+//			RelativeLayout layoutFMTransmit = (RelativeLayout) findViewById(R.id.layoutFMTransmit);
+//			layoutFMTransmit.setOnClickListener(myOnClickListener);
+//		}
 
 		// 设置
+		//4.GPS_TEST
+		RelativeLayout layoutGpsTest = (RelativeLayout) findViewById(R.id.layoutGpsTest);
+		layoutGpsTest.setOnClickListener(myOnClickListener);
+
+		//5.设置
 		RelativeLayout layoutSetting = (RelativeLayout) findViewById(R.id.layoutSetting);
 		layoutSetting.setOnClickListener(myOnClickListener);
 
-		// GPS_TEST
-		RelativeLayout layoutGpsTest = (RelativeLayout) findViewById(R.id.layoutGpsTest);
-		layoutGpsTest.setOnClickListener(myOnClickListener);
+		//6.FM发射
+		RelativeLayout layoutFMTransmit = (RelativeLayout) findViewById(R.id.layoutFMTransmit);
+		layoutFMTransmit.setOnClickListener(myOnClickListener);
 
 		isPagerTwoShowed = true;
 		updateAllInfo();
 	}
 
 	private void updateLayoutThree() {
-		// GPS_TEST
-		RelativeLayout layoutGpsTest = (RelativeLayout) findViewById(R.id.layoutGpsTest);
-		layoutGpsTest.setOnClickListener(myOnClickListener);
+
+		RelativeLayout layoutWeather = (RelativeLayout) findViewById(R.id.layoutWeather);
+		layoutWeather.setOnClickListener(myOnClickListener);
+
+		imageWeatherInfo = (ImageView) findViewById(R.id.imageWeatherInfo);
+
+		textWeatherInfo = (TextView) findViewById(R.id.textWeatherInfo);
+		textWeatherTmpRange = (TextView) findViewById(R.id.textWeatherTmpRange);
+		textWeatherCity = (TextView) findViewById(R.id.textWeatherCity);
+
+
 
 		isPagerThreeShowed = true;
 	}
@@ -766,22 +649,9 @@ public class MainActivity extends Activity {
 				break;
 
 			case R.id.layoutNavigation:
-				if (UIConfig.SL9 == uiConfig) { // SL 9.76
-					String strMapSetting = Settings.System.getString(
-							getContentResolver(), "tchip_navi_app");
-					if (strMapSetting != null && "gaode".equals(strMapSetting)) {
-						OpenUtil.openModule(MainActivity.this,
-								MODULE_TYPE.NAVI_BAIDU);
-//								MODULE_TYPE.NAVI_GAODE_CAR_MIRROR);
-					} else {
-						OpenUtil.openModule(MainActivity.this,
-								MODULE_TYPE.NAVI_BAIDU);
-					}
-				} else {
 					OpenUtil.openModule(MainActivity.this,
 							MODULE_TYPE.NAVI_BAIDU);
 //							MODULE_TYPE.NAVI_GAODE_CAR_MIRROR);
-				}
 				break;
 
 			case R.id.layoutVideoOL:
@@ -824,22 +694,7 @@ public class MainActivity extends Activity {
 				break;
 
 			case R.id.layoutYiKa:
-				if (UIConfig.SL6 == uiConfig || UIConfig.SL7 == uiConfig
-						|| UIConfig.SL9 == uiConfig) { // SL
-					OpenUtil.openModule(MainActivity.this,
-							MODULE_TYPE.CLOUD_CENTER);
-				} else if (UIConfig.TQ6 == uiConfig || UIConfig.TQ7 == uiConfig
-						|| UIConfig.TQ9 == uiConfig) { // TQ
-					if (Constant.Module.hasYouku) {
-						OpenUtil.openModule(MainActivity.this,
-								MODULE_TYPE.YOUKU);
-					} else
-						OpenUtil.openModule(MainActivity.this, MODULE_TYPE.YIKA);
-				} else if (UIConfig.JJ9 == uiConfig) { // JJ
-					OpenUtil.openModule(MainActivity.this, MODULE_TYPE.YIKA);
-				} else if (UIConfig.WO6 == uiConfig) { // WO
-					OpenUtil.openModule(MainActivity.this, MODULE_TYPE.YIKA);
-				}
+				OpenUtil.openModule(MainActivity.this, MODULE_TYPE.YIKA);
 				break;
 
 			case R.id.layoutSetting:
@@ -891,17 +746,21 @@ public class MainActivity extends Activity {
 
 	/** 更新录制信息 */
 	private void updateRecordInfo() {
-		if (isPagerOneShowed) {
-			Message msgUpdateRecord = new Message();
-			msgUpdateRecord.what = 1;
-			taskHandler.sendMessage(msgUpdateRecord);
+
+		if (false) {
+
+			if (isPagerOneShowed) {
+				Message msgUpdateRecord = new Message();
+				msgUpdateRecord.what = 1;
+				taskHandler.sendMessage(msgUpdateRecord);
+			}
 		}
 	}
 
 	/** 更新天气信息 */
 	private void updateWeatherInfo() {
-		if (UIConfig.TQ6 == uiConfig || UIConfig.TQ7 == uiConfig
-				|| UIConfig.SL7 == uiConfig) {
+
+		if (false) {
 			if (isPagerTwoShowed) {
 				Message msgUpdateWeather = new Message();
 				msgUpdateWeather.what = 2;
@@ -1380,10 +1239,7 @@ public class MainActivity extends Activity {
 
 					@Override
 					public void run() {
-						if (UIConfig.SL6 == uiConfig
-								|| UIConfig.TQ6 == uiConfig
-								|| UIConfig.SL7 == uiConfig
-								|| UIConfig.SL9 == uiConfig) { // SL
+						if (true) { // SL
 							if ("1".equals(recStateFront)) {
 								textRecStateFront
 										.setText(getResources().getString(
@@ -1396,72 +1252,6 @@ public class MainActivity extends Activity {
 												R.string.rec_state_front_off));
 								imageRecordState
 										.setImageResource(R.drawable.record_start_normal_sl_6);
-							}
-							if ("1".equals(recStateBack)) {
-								textRecStateBack.setText(getResources()
-										.getString(R.string.rec_state_back_on));
-							} else {
-								textRecStateBack
-										.setText(getResources().getString(
-												R.string.rec_state_back_off));
-							}
-						} else if (UIConfig.TQ7 == uiConfig) { // TQ
-							if ("1".equals(recStateFront)) {
-								textRecStateFront
-										.setText(getResources().getString(
-												R.string.rec_state_front_on));
-								imageRecordState
-										.setImageResource(R.drawable.state_record_stop_tq_6);
-							} else {
-								textRecStateFront
-										.setText(getResources().getString(
-												R.string.rec_state_front_off));
-								imageRecordState
-										.setImageResource(R.drawable.state_record_start_tq_6);
-							}
-							if ("1".equals(recStateBack)) {
-								textRecStateBack.setText(getResources()
-										.getString(R.string.rec_state_back_on));
-							} else {
-								textRecStateBack
-										.setText(getResources().getString(
-												R.string.rec_state_back_off));
-							}
-						} else if (UIConfig.JJ9 == uiConfig) { // JJ 9
-							if ("1".equals(recStateFront)) {
-								textRecStateFront
-										.setText(getResources().getString(
-												R.string.rec_state_front_on));
-								imageRecordState
-										.setImageResource(R.drawable.record_stop_normal_jj_9);
-							} else {
-								textRecStateFront
-										.setText(getResources().getString(
-												R.string.rec_state_front_off));
-								imageRecordState
-										.setImageResource(R.drawable.record_start_normal_jj_9);
-							}
-							if ("1".equals(recStateBack)) {
-								textRecStateBack.setText(getResources()
-										.getString(R.string.rec_state_back_on));
-							} else {
-								textRecStateBack
-										.setText(getResources().getString(
-												R.string.rec_state_back_off));
-							}
-						} else if (UIConfig.WO6 == uiConfig) {
-							if ("1".equals(recStateFront)) {
-								textRecStateFront
-										.setText(getResources().getString(
-												R.string.rec_state_front_on));
-								imageRecordState
-										.setImageResource(R.drawable.record_stop_normal_wo_6);
-							} else {
-								textRecStateFront
-										.setText(getResources().getString(
-												R.string.rec_state_front_off));
-								imageRecordState
-										.setImageResource(R.drawable.record_start_normal_wo_6);
 							}
 							if ("1".equals(recStateBack)) {
 								textRecStateBack.setText(getResources()

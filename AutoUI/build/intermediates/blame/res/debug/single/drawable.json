@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable\\state_play_tq_6.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable\\state_play_tq_6.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable\\multimedia_video_tq_6.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable\\multimedia_video_tq_6.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable\\multimedia_image_tq_6.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable\\multimedia_image_tq_6.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable\\state_record_start_tq_6.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable\\state_record_start_tq_6.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable\\state_stop_tq_6.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable\\state_stop_tq_6.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\build\\intermediates\\res\\merged\\debug\\drawable\\state_record_stop_tq_6.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoUI\\src\\main\\res\\drawable\\state_record_stop_tq_6.xml"
+    }
+]

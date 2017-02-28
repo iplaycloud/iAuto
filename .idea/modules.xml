@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoFM/AutoFM.iml" filepath="$PROJECT_DIR$/AutoFM/AutoFM.iml" />
       <module fileurl="file://$PROJECT_DIR$/AutoProvider/AutoProvider.iml" filepath="$PROJECT_DIR$/AutoProvider/AutoProvider.iml" />
       <module fileurl="file://$PROJECT_DIR$/AutoRecord/AutoRecord.iml" filepath="$PROJECT_DIR$/AutoRecord/AutoRecord.iml" />
       <module fileurl="file://$PROJECT_DIR$/AutoSetting/AutoSetting.iml" filepath="$PROJECT_DIR$/AutoSetting/AutoSetting.iml" />

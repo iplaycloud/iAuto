@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="city_text_size">27sp</dimen>
+    <dimen name="layout_detail_height">300dp</dimen>
+    <dimen name="layout_today_width">390dp</dimen>
+    <dimen name="layout_update_height">81dp</dimen>
+    <dimen name="locate_icon_margin_top">3dp</dimen>
+    <dimen name="post_time_text_size">27sp</dimen>
+    <dimen name="refresh_edge_length">30dp</dimen>
+    <dimen name="temp_range_text_size">99sp</dimen>
+    <dimen name="toady_wind_margin_top">30dp</dimen>
+    <dimen name="today_air_margin_top">9dp</dimen>
+    <dimen name="today_info_icon_length">38dp</dimen>
+    <dimen name="today_info_margin_left">24dp</dimen>
+    <dimen name="today_info_margin_top">27dp</dimen>
+    <dimen name="today_temp_du_margin_left">6dp</dimen>
+    <dimen name="today_temp_du_text_size">75sp</dimen>
+    <dimen name="today_weather_info_text_size">27sp</dimen>
+    <dimen name="today_week_date_text_size">27sp</dimen>
+    <dimen name="today_wet_margin_bottom">30dp</dimen>
+    <dimen name="weather_image_more_weather">75dp</dimen>
+    <dimen name="weather_more_info_image_size">90dp</dimen>
+    <dimen name="weather_more_info_text_size">27sp</dimen>
+    <dimen name="weather_text_more_temp">@dimen/weather_text_more_week</dimen>
+    <dimen name="weather_text_more_week">18sp</dimen>
+</resources>

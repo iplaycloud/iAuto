@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_tx3.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\layout\\activity_main_tx3.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\layout\\residemenu.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\layout\\superman_alertdialog.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\layout\\superman_alertdialog.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_info.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\layout\\residemenu_info.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_item.xml",
+        "source": "F:\\OneDrive\\AndroidStudioProjects_pri\\iAuto\\AutoWeather\\src\\main\\res\\layout\\residemenu_item.xml"
+    }
+]
